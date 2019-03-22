@@ -9,7 +9,7 @@ WORKDIR /app/
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin/ --filename=composer
 
-RUN composer install --no-scripts --no-autoloader --quiet
+RUN composer install --quiet
 
 RUN composer dump-autoload --optimize
 
