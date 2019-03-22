@@ -1,13 +1,18 @@
 FROM webdevops/php-nginx:7.2
 
-WORKDIR /app
+COPY . /app/
 
-RUN curl -sS https://getcomposer.org/installer | \
-    php -- --install-dir=/usr/bin/ --filename=composer
+RUN ls -la
+
+WORKDIR /app/
+
+RUN ls -la
+
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin/ --filename=composer
 
 RUN composer install --no-scripts --no-autoloader
 
-RUN composer dump-autoload --optimize && composer run-scripts post-install-cmd
+RUN composer dump-autoload --optimize
 
 RUN php artisan migrate --seed
 

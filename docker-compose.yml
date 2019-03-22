@@ -10,7 +10,7 @@ services:
     expose:
     - 80/tcp
     volumes:
-    - ./:/app
+    - .:/app
     labels:
     - "traefik.enable=true"
     - "traefik.frontend.rule=Host:vost.mariosantos.net"
