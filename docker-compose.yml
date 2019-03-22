@@ -1,5 +1,15 @@
 version: '3'
 services:
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'vost'
+      MYSQL_ROOT_PASSWORD: 'SuperRootPassword@@'
+    expose:
+    - 3306
+    network_mode: "bridge"
+
   http:
     build:
       context: .
@@ -16,15 +26,4 @@ services:
     - "traefik.frontend.rule=Host:vost.mariosantos.net"
     - "traefik.port=80"
     - "traefik.frontend.entryPoints=http,https"
-    network_mode: "bridge"
-  db:
-    image: mariadb
-    restart: always
-    environment:
-      MYSQL_DATABASE: 'vost'
-      MYSQL_ROOT_PASSWORD: 'SuperRootPassword@@'
-    ports:
-    - '3306:3306'
-    expose:
-    - '3306'
     network_mode: "bridge"
