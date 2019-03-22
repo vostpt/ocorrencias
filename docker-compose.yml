@@ -1,0 +1,28 @@
+version: '2'
+services:
+  http:
+    image: webdevops/php-apache-dev:7.1
+    restart: always
+    links:
+    - "db"
+    expose:
+    - 80/tcp
+    volumes:
+    - ./:/app
+    labels:
+    - "traefik.enable=true"
+    - "traefik.frontend.rule=Host:www.code5.pt"
+    - "traefik.port=80"
+    - "traefik.frontend.entryPoints=http,https"
+    network_mode: "bridge"
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_ROOT_PASSWORD: 'ThePassword@@'
+    ports:
+    - '3306:3306'
+    expose:
+    - '3306'
+    network_mode: "bridge"

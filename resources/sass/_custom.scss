@@ -1,0 +1,19 @@
+.hero-img {
+  height: 50vh;
+  background-image: url("https://vost.pt/wp-content/uploads/2018/11/VOSTSITE_0004.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 0 30%;
+}
+
+.index-text {
+  margin-top: 1.5rem;
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+#map {
+  height: 25vh;
+}

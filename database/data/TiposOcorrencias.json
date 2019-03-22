@@ -1,0 +1,1003 @@
+[
+ {
+   "Codigo": 1101,
+   "Nome": "Riscos Naturais / Fenómenos Naturais / Cheia",
+   "Abreviatura": "Cheia",
+   "EspecieAbreviatura": "Fenómenos Naturais",
+   "FamiliaAbreviatura": "Riscos Naturais"
+ },
+ {
+   "Codigo": 1103,
+   "Nome": "Riscos Naturais / Fenómenos Naturais / Ventos fortes",
+   "Abreviatura": "Ventos fortes",
+   "EspecieAbreviatura": "Fenómenos Naturais",
+   "FamiliaAbreviatura": "Riscos Naturais"
+ },
+ {
+   "Codigo": 1105,
+   "Nome": "Riscos Naturais / Fenómenos Naturais / Sismo",
+   "Abreviatura": "Sismo",
+   "EspecieAbreviatura": "Fenómenos Naturais",
+   "FamiliaAbreviatura": "Riscos Naturais"
+ },
+ {
+   "Codigo": 1107,
+   "Nome": "Riscos Naturais / Fenómenos Naturais / Nevões",
+   "Abreviatura": "Nevões",
+   "EspecieAbreviatura": "Fenómenos Naturais",
+   "FamiliaAbreviatura": "Riscos Naturais"
+ },
+ {
+   "Codigo": 1109,
+   "Nome": "Riscos Naturais / Fenómenos Naturais / Ondas de calor",
+   "Abreviatura": "Ondas de calor",
+   "EspecieAbreviatura": "Fenómenos Naturais",
+   "FamiliaAbreviatura": "Riscos Naturais"
+ },
+ {
+   "Codigo": 1111,
+   "Nome": "Riscos Naturais / Fenómenos Naturais / Ondas de frio",
+   "Abreviatura": "Ondas de frio",
+   "EspecieAbreviatura": "Fenómenos Naturais",
+   "FamiliaAbreviatura": "Riscos Naturais"
+ },
+ {
+   "Codigo": 1113,
+   "Nome": "Riscos Naturais / Fenómenos Naturais / Secas",
+   "Abreviatura": "Secas",
+   "EspecieAbreviatura": "Fenómenos Naturais",
+   "FamiliaAbreviatura": "Riscos Naturais"
+ },
+ {
+   "Codigo": 1115,
+   "Nome": "Riscos Naturais / Fenómenos Naturais / Inundação por galgamento costeiro",
+   "Abreviatura": "Inundação por galgamento costeiro",
+   "EspecieAbreviatura": "Fenómenos Naturais",
+   "FamiliaAbreviatura": "Riscos Naturais"
+ },
+ {
+   "Codigo": 1117,
+   "Nome": "Riscos Naturais / Fenómenos Naturais / Erosão costeira",
+   "Abreviatura": "Erosão costeira",
+   "EspecieAbreviatura": "Fenómenos Naturais",
+   "FamiliaAbreviatura": "Riscos Naturais"
+ },
+ {
+   "Codigo": 1119,
+   "Nome": "Riscos Naturais / Fenómenos Naturais / Colapso de cavidades suberrâneas naturais",
+   "Abreviatura": "Colapso de cavidades suberrâneas naturais",
+   "EspecieAbreviatura": "Fenómenos Naturais",
+   "FamiliaAbreviatura": "Riscos Naturais"
+ },
+ {
+   "Codigo": 1121,
+   "Nome": "Riscos Naturais / Fenómenos Naturais / Actividade Vulcânica",
+   "Abreviatura": "Actividade Vulcânica",
+   "EspecieAbreviatura": "Fenómenos Naturais",
+   "FamiliaAbreviatura": "Riscos Naturais"
+ },
+ {
+   "Codigo": 1123,
+   "Nome": "Riscos Naturais / Fenómenos Naturais / Queda de Meteorito",
+   "Abreviatura": "Queda de Meteorito",
+   "EspecieAbreviatura": "Fenómenos Naturais",
+   "FamiliaAbreviatura": "Riscos Naturais"
+ },
+ {
+   "Codigo": 2101,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Habitacional",
+   "Abreviatura": "Habitacional",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2103,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Estacionamento de superfície",
+   "Abreviatura": "Estacionamento de superfície",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2105,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Estacionamento em profundidade ou silo",
+   "Abreviatura": "Estacionamento em profundidade ou silo",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2107,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Serviços Administrativos",
+   "Abreviatura": "Serviços Administrativos",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2109,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Parque Escolar",
+   "Abreviatura": "Parque Escolar",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2111,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Hospitalares e Lares de Idosos",
+   "Abreviatura": "Hospitalares e Lares de Idosos",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2113,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Espectáculos e Reuniões Públicas",
+   "Abreviatura": "Espectáculos e Reuniões Públicas",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2115,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Hotelaria e Restauração",
+   "Abreviatura": "Hotelaria e Restauração",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2117,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Áreas Comerciais e Gares de Transportes",
+   "Abreviatura": "Áreas Comerciais e Gares de Transportes",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2119,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Desporto e Lazer",
+   "Abreviatura": "Desporto e Lazer",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2121,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Museus e Galerias de Arte",
+   "Abreviatura": "Museus e Galerias de Arte",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2123,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Bibliotecas e Arquivos",
+   "Abreviatura": "Bibliotecas e Arquivos",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2125,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Militar, Forças de Segurança e Forças de Socorro",
+   "Abreviatura": "Militar, Forças de Segurança e Forças de Socorro",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2127,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Indústria, Oficina e Armazém",
+   "Abreviatura": "Indústria, Oficina e Armazém",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2129,
+   "Nome": "Riscos Tecnológicos / Incêndios Urbanos ou em Área Urbanizável / Edifícios degradados ou devolutos",
+   "Abreviatura": "Edifícios degradados ou devolutos",
+   "EspecieAbreviatura": "Incêndios Urbanos ou em Área Urbanizável",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2201,
+   "Nome": "Riscos Tecnológicos / Incêndios em Equipamento e Produtos / Equipamentos",
+   "Abreviatura": "Equipamentos",
+   "EspecieAbreviatura": "Incêndios em Equipamento e Produtos",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2203,
+   "Nome": "Riscos Tecnológicos / Incêndios em Equipamento e Produtos / Produtos",
+   "Abreviatura": "Produtos",
+   "EspecieAbreviatura": "Incêndios em Equipamento e Produtos",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2301,
+   "Nome": "Riscos Tecnológicos / Incêndios em Transportes / Rodoviário",
+   "Abreviatura": "Rodoviário",
+   "EspecieAbreviatura": "Incêndios em Transportes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2303,
+   "Nome": "Riscos Tecnológicos / Incêndios em Transportes / Aéreo",
+   "Abreviatura": "Aéreo",
+   "EspecieAbreviatura": "Incêndios em Transportes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2305,
+   "Nome": "Riscos Tecnológicos / Incêndios em Transportes / Ferroviário",
+   "Abreviatura": "Ferroviário",
+   "EspecieAbreviatura": "Incêndios em Transportes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2307,
+   "Nome": "Riscos Tecnológicos / Incêndios em Transportes / Aquático",
+   "Abreviatura": "Aquático",
+   "EspecieAbreviatura": "Incêndios em Transportes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2401,
+   "Nome": "Riscos Tecnológicos / Acidentes / Atropelamento rodoviário",
+   "Abreviatura": "Atropelamento rodoviário",
+   "EspecieAbreviatura": "Acidentes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2403,
+   "Nome": "Riscos Tecnológicos / Acidentes / Colisão rodoviária",
+   "Abreviatura": "Colisão rodoviária",
+   "EspecieAbreviatura": "Acidentes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2405,
+   "Nome": "Riscos Tecnológicos / Acidentes / Acidentes com veículos fora de estrada",
+   "Abreviatura": "Acidentes com veículos fora de estrada",
+   "EspecieAbreviatura": "Acidentes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2407,
+   "Nome": "Riscos Tecnológicos / Acidentes / Despiste",
+   "Abreviatura": "Despiste",
+   "EspecieAbreviatura": "Acidentes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2409,
+   "Nome": "Riscos Tecnológicos / Acidentes / Acidente Aéreo",
+   "Abreviatura": "Acidente Aéreo",
+   "EspecieAbreviatura": "Acidentes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2411,
+   "Nome": "Riscos Tecnológicos / Acidentes / Atropelamento ferroviário",
+   "Abreviatura": "Atropelamento ferroviário",
+   "EspecieAbreviatura": "Acidentes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2413,
+   "Nome": "Riscos Tecnológicos / Acidentes / Abalroamento ferroviário",
+   "Abreviatura": "Abalroamento ferroviário",
+   "EspecieAbreviatura": "Acidentes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2415,
+   "Nome": "Riscos Tecnológicos / Acidentes / Choque entre veículos ou composições ferroviárias",
+   "Abreviatura": "Choque entre veículos ou composições ferroviárias",
+   "EspecieAbreviatura": "Acidentes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2417,
+   "Nome": "Riscos Tecnológicos / Acidentes / Descarrilamento ferroviário",
+   "Abreviatura": "Descarrilamento ferroviário",
+   "EspecieAbreviatura": "Acidentes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2419,
+   "Nome": "Riscos Tecnológicos / Acidentes / Afundamento ou adornamento",
+   "Abreviatura": "Afundamento ou adornamento",
+   "EspecieAbreviatura": "Acidentes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2421,
+   "Nome": "Riscos Tecnológicos / Acidentes / Encalhe",
+   "Abreviatura": "Encalhe",
+   "EspecieAbreviatura": "Acidentes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2423,
+   "Nome": "Riscos Tecnológicos / Acidentes / Colisão Aquática",
+   "Abreviatura": "Colisão Aquática",
+   "EspecieAbreviatura": "Acidentes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2425,
+   "Nome": "Riscos Tecnológicos / Acidentes / Abalroamento aquático",
+   "Abreviatura": "Abalroamento aquático",
+   "EspecieAbreviatura": "Acidentes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2501,
+   "Nome": "Riscos Tecnológicos / Acidentes industriais e tecnológicos / Radiológicos, dentro de uma instalação",
+   "Abreviatura": "Radiológicos, dentro de uma instalação",
+   "EspecieAbreviatura": "Acidentes industriais e tecnológicos",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2503,
+   "Nome": "Riscos Tecnológicos / Acidentes industriais e tecnológicos / Químicos, dentro de uma instalação",
+   "Abreviatura": "Químicos, dentro de uma instalação",
+   "EspecieAbreviatura": "Acidentes industriais e tecnológicos",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2505,
+   "Nome": "Riscos Tecnológicos / Acidentes industriais e tecnológicos / Biológicos, dentro de uma instalação",
+   "Abreviatura": "Biológicos, dentro de uma instalação",
+   "EspecieAbreviatura": "Acidentes industriais e tecnológicos",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2507,
+   "Nome": "Riscos Tecnológicos / Acidentes industriais e tecnológicos / Radiológicos, em trânsito",
+   "Abreviatura": "Radiológicos, em trânsito",
+   "EspecieAbreviatura": "Acidentes industriais e tecnológicos",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2509,
+   "Nome": "Riscos Tecnológicos / Acidentes industriais e tecnológicos / Químicos, em trânsito",
+   "Abreviatura": "Químicos, em trânsito",
+   "EspecieAbreviatura": "Acidentes industriais e tecnológicos",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2511,
+   "Nome": "Riscos Tecnológicos / Acidentes industriais e tecnológicos / Biológicos, em trânsito",
+   "Abreviatura": "Biológicos, em trânsito",
+   "EspecieAbreviatura": "Acidentes industriais e tecnológicos",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2513,
+   "Nome": "Riscos Tecnológicos / Acidentes industriais e tecnológicos / Fuga de Gás em conduta",
+   "Abreviatura": "Fuga de Gás em conduta",
+   "EspecieAbreviatura": "Acidentes industriais e tecnológicos",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2515,
+   "Nome": "Riscos Tecnológicos / Acidentes industriais e tecnológicos / Fuga de Gás em garrafa",
+   "Abreviatura": "Fuga de Gás em garrafa",
+   "EspecieAbreviatura": "Acidentes industriais e tecnológicos",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2517,
+   "Nome": "Riscos Tecnológicos / Acidentes industriais e tecnológicos / Fuga de Gás em reservatório",
+   "Abreviatura": "Fuga de Gás em reservatório",
+   "EspecieAbreviatura": "Acidentes industriais e tecnológicos",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 2519,
+   "Nome": "Riscos Tecnológicos / Acidentes industriais e tecnológicos / Queda de Satélite",
+   "Abreviatura": "Queda de Satélite",
+   "EspecieAbreviatura": "Acidentes industriais e tecnológicos",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ },
+ {
+   "Codigo": 3101,
+   "Nome": "Riscos Mistos / Incêndios Rurais / Povoamento Florestal",
+   "Abreviatura": "Povoamento Florestal",
+   "EspecieAbreviatura": "Incêndios Rurais",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3103,
+   "Nome": "Riscos Mistos / Incêndios Rurais / Mato",
+   "Abreviatura": "Mato",
+   "EspecieAbreviatura": "Incêndios Rurais",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3105,
+   "Nome": "Riscos Mistos / Incêndios Rurais / Agrícola",
+   "Abreviatura": "Agrícola",
+   "EspecieAbreviatura": "Incêndios Rurais",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3107,
+   "Nome": "Riscos Mistos / Incêndios Rurais / Consolidação de Rescaldo",
+   "Abreviatura": "Consolidação de Rescaldo",
+   "EspecieAbreviatura": "Incêndios Rurais",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3109,
+   "Nome": "Riscos Mistos / Incêndios Rurais / Gestão de Combustível",
+   "Abreviatura": "Gestão de Combustível",
+   "EspecieAbreviatura": "Incêndios Rurais",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3111,
+   "Nome": "Riscos Mistos / Incêndios Rurais / Queima",
+   "Abreviatura": "Queima",
+   "EspecieAbreviatura": "Incêndios Rurais",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3201,
+   "Nome": "Riscos Mistos / Incêndios em Detritos / Detritos não confinados",
+   "Abreviatura": "Detritos não confinados",
+   "EspecieAbreviatura": "Incêndios em Detritos",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3203,
+   "Nome": "Riscos Mistos / Incêndios em Detritos / Detritos confinados",
+   "Abreviatura": "Detritos confinados",
+   "EspecieAbreviatura": "Incêndios em Detritos",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3301,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Queda de Árvore",
+   "Abreviatura": "Queda de Árvore",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3303,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Corte de abastecimento de água",
+   "Abreviatura": "Corte de abastecimento de água",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3305,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Corte de abastecimento eléctrico",
+   "Abreviatura": "Corte de abastecimento eléctrico",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3307,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Corte de abastecimento de gás",
+   "Abreviatura": "Corte de abastecimento de gás",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3309,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Desabamento de estruturas edificadas",
+   "Abreviatura": "Desabamento de estruturas edificadas",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3311,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Queda de elementos de construção em estruturas edificadas",
+   "Abreviatura": "Queda de elementos de construção em estruturas edificadas",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3313,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Movimento de massa",
+   "Abreviatura": "Movimento de massa",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3315,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Inundação de estruturas ou superfícies por precipitação intensa",
+   "Abreviatura": "Inundação de estruturas ou superfícies por precipitação intensa",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3317,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Inundação de estruturas por água canalizada",
+   "Abreviatura": "Inundação de estruturas por água canalizada",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3319,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Desentupimento / Tamponamento",
+   "Abreviatura": "Desentupimento / Tamponamento",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3321,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Dano ou Queda de redes de fornecimento eléctrico",
+   "Abreviatura": "Dano ou Queda de redes de fornecimento eléctrico",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3323,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Dano em redes de abastecimento de água",
+   "Abreviatura": "Dano em redes de abastecimento de água",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3325,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Dano em redes de abastecimento de gás",
+   "Abreviatura": "Dano em redes de abastecimento de gás",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3327,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Dano em oleodutos e gasodutos",
+   "Abreviatura": "Dano em oleodutos e gasodutos",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3329,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Queda de estruturas temporárias ou móveis",
+   "Abreviatura": "Queda de estruturas temporárias ou móveis",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3331,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Colapso de galerias e cavidades artificiais",
+   "Abreviatura": "Colapso de galerias e cavidades artificiais",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3333,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Ruptura de Barragens",
+   "Abreviatura": "Ruptura de Barragens",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3335,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Sabotagem a estruturas críticas",
+   "Abreviatura": "Sabotagem a estruturas críticas",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 3337,
+   "Nome": "Riscos Mistos / Comprometimento total ou parcial de segurança, serviços ou estruturas / Queda de projectil comandado",
+   "Abreviatura": "Queda de projectil comandado",
+   "EspecieAbreviatura": "Comprometimento total ou parcial de segurança, serviços ou estruturas",
+   "FamiliaAbreviatura": "Riscos Mistos"
+ },
+ {
+   "Codigo": 4101,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência em Saúde / Intoxicação",
+   "Abreviatura": "Intoxicação",
+   "EspecieAbreviatura": "Assistência em Saúde",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4103,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência em Saúde / Doença",
+   "Abreviatura": "Doença",
+   "EspecieAbreviatura": "Assistência em Saúde",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4105,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência em Saúde / Trauma",
+   "Abreviatura": "Trauma",
+   "EspecieAbreviatura": "Assistência em Saúde",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4107,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência em Saúde / Queimadura",
+   "Abreviatura": "Queimadura",
+   "EspecieAbreviatura": "Assistência em Saúde",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4109,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência em Saúde / Trabalho de Parto",
+   "Abreviatura": "Trabalho de Parto",
+   "EspecieAbreviatura": "Assistência em Saúde",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4111,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência em Saúde / Pré-Afogamento",
+   "Abreviatura": "Pré-Afogamento",
+   "EspecieAbreviatura": "Assistência em Saúde",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4113,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência em Saúde / Afogamento",
+   "Abreviatura": "Afogamento",
+   "EspecieAbreviatura": "Assistência em Saúde",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4115,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência em Saúde / Evacuação e Transporte médico aéreo",
+   "Abreviatura": "Evacuação e Transporte médico aéreo",
+   "EspecieAbreviatura": "Assistência em Saúde",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4117,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência em Saúde / Transporte de orgãos para transplante",
+   "Abreviatura": "Transporte de orgãos para transplante",
+   "EspecieAbreviatura": "Assistência em Saúde",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4119,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência em Saúde / Transporte Regular de Doentes",
+   "Abreviatura": "Transporte Regular de Doentes",
+   "EspecieAbreviatura": "Assistência em Saúde",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4121,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência em Saúde / Transporte Extra SIEM",
+   "Abreviatura": "Transporte Extra SIEM",
+   "EspecieAbreviatura": "Assistência em Saúde",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4123,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência em Saúde / Transporte de Doentes entre Unidades de Saúde",
+   "Abreviatura": "Transporte de Doentes entre Unidades de Saúde",
+   "EspecieAbreviatura": "Assistência em Saúde",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4201,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Intervenção em conflitos legais / Ameaça de explosão",
+   "Abreviatura": "Ameaça de explosão",
+   "EspecieAbreviatura": "Intervenção em conflitos legais",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4203,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Intervenção em conflitos legais / Explosão",
+   "Abreviatura": "Explosão",
+   "EspecieAbreviatura": "Intervenção em conflitos legais",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4205,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Intervenção em conflitos legais / Agressão/Violação",
+   "Abreviatura": "Agressão/Violação",
+   "EspecieAbreviatura": "Intervenção em conflitos legais",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4207,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Intervenção em conflitos legais / Suicídio/Homicídio na forma tentada",
+   "Abreviatura": "Suicídio/Homicídio na forma tentada",
+   "EspecieAbreviatura": "Intervenção em conflitos legais",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4209,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Intervenção em conflitos legais / Suicídio/Homicídio consumado",
+   "Abreviatura": "Suicídio/Homicídio consumado",
+   "EspecieAbreviatura": "Intervenção em conflitos legais",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4211,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Intervenção em conflitos legais / Motim",
+   "Abreviatura": "Motim",
+   "EspecieAbreviatura": "Intervenção em conflitos legais",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4213,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Intervenção em conflitos legais / Remoção e/ou Transporte de cadáver",
+   "Abreviatura": "Remoção e/ou Transporte de cadáver",
+   "EspecieAbreviatura": "Intervenção em conflitos legais",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4215,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Intervenção em conflitos legais / Apoio às Forças de Segurança",
+   "Abreviatura": "Apoio às Forças de Segurança",
+   "EspecieAbreviatura": "Intervenção em conflitos legais",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4301,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Patrulhamento, Reconhecimento e Vigilância",
+   "Abreviatura": "Patrulhamento, Reconhecimento e Vigilância",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4303,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Prevenção a actividades de lazer",
+   "Abreviatura": "Prevenção a actividades de lazer",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4305,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Limpeza de Via e Sinalização de Perigo",
+   "Abreviatura": "Limpeza de Via e Sinalização de Perigo",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4307,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Assistência à população e Apoio Social",
+   "Abreviatura": "Assistência à população e Apoio Social",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4309,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Apoio psicossocial",
+   "Abreviatura": "Apoio psicossocial",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4311,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Abastecimento de Água à População",
+   "Abreviatura": "Abastecimento de Água à População",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4313,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Abastecimento de Água a entidades públicas",
+   "Abreviatura": "Abastecimento de Água a entidades públicas",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4315,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Abastecimento de Água a entidades privadas",
+   "Abreviatura": "Abastecimento de Água a entidades privadas",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4317,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Abertura de porta com socorro",
+   "Abreviatura": "Abertura de porta com socorro",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4319,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Abertura de porta sem socorro",
+   "Abreviatura": "Abertura de porta sem socorro",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4321,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Abertura de Elevadores",
+   "Abreviatura": "Abertura de Elevadores",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4323,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Reboque e Desempanagem",
+   "Abreviatura": "Reboque e Desempanagem",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4325,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Evacuação",
+   "Abreviatura": "Evacuação",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4327,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Busca e Resgate Terrestre, de Pessoas",
+   "Abreviatura": "Busca e Resgate Terrestre, de Pessoas",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4329,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Busca e Resgate Aquático, de Pessoas",
+   "Abreviatura": "Busca e Resgate Aquático, de Pessoas",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4331,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Busca e Resgate Terrestre, de Animais",
+   "Abreviatura": "Busca e Resgate Terrestre, de Animais",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4333,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Busca e Resgate Aquático, de Animais",
+   "Abreviatura": "Busca e Resgate Aquático, de Animais",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4335,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Prevenção a Queimadas",
+   "Abreviatura": "Prevenção a Queimadas",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4337,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Acompanhamento de Transportes",
+   "Abreviatura": "Acompanhamento de Transportes",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 4339,
+   "Nome": "Protecção e Assistência a Pessoas e Bens / Assistência e Prevenção a actividades humanas / Corte ou Remoção de elementos em perigo de queda",
+   "Abreviatura": "Corte ou Remoção de elementos em perigo de queda",
+   "EspecieAbreviatura": "Assistência e Prevenção a actividades humanas",
+   "FamiliaAbreviatura": "Protecção e Assistência a Pessoas e Bens"
+ },
+ {
+   "Codigo": 9101,
+   "Nome": "Operações  e Estados de Alerta / Operações / Pré-posicionamento de Meios",
+   "Abreviatura": "Pré-posicionamento de Meios",
+   "EspecieAbreviatura": "Operações",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9103,
+   "Nome": "Operações  e Estados de Alerta / Operações / Pré-posicionamento de Meios DECIF",
+   "Abreviatura": "Pré-posicionamento de Meios DECIF",
+   "EspecieAbreviatura": "Operações",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9105,
+   "Nome": "Operações  e Estados de Alerta / Operações / Exercício ou Simulacro",
+   "Abreviatura": "Exercício ou Simulacro",
+   "EspecieAbreviatura": "Operações",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9107,
+   "Nome": "Operações  e Estados de Alerta / Operações / Deslocações em Formação",
+   "Abreviatura": "Deslocações em Formação",
+   "EspecieAbreviatura": "Operações",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9109,
+   "Nome": "Operações  e Estados de Alerta / Operações / Deslocações Oficiais",
+   "Abreviatura": "Deslocações Oficiais",
+   "EspecieAbreviatura": "Operações",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9111,
+   "Nome": "Operações  e Estados de Alerta / Operações / Deslocações em Serviço Geral",
+   "Abreviatura": "Deslocações em Serviço Geral",
+   "EspecieAbreviatura": "Operações",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9113,
+   "Nome": "Operações  e Estados de Alerta / Operações / Operações Nacionais de Socorro",
+   "Abreviatura": "Operações Nacionais de Socorro",
+   "EspecieAbreviatura": "Operações",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9115,
+   "Nome": "Operações  e Estados de Alerta / Operações / Operações Nacionais de Assistência",
+   "Abreviatura": "Operações Nacionais de Assistência",
+   "EspecieAbreviatura": "Operações",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9117,
+   "Nome": "Operações  e Estados de Alerta / Operações / Missões Internacionais em Socorro",
+   "Abreviatura": "Missões Internacionais em Socorro",
+   "EspecieAbreviatura": "Operações",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9119,
+   "Nome": "Operações  e Estados de Alerta / Operações / Missões Internacionais de Assistência",
+   "Abreviatura": "Missões Internacionais de Assistência",
+   "EspecieAbreviatura": "Operações",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9121,
+   "Nome": "Operações  e Estados de Alerta / Operações / Reconhecimento Aéreo",
+   "Abreviatura": "Reconhecimento Aéreo",
+   "EspecieAbreviatura": "Operações",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9123,
+   "Nome": "Operações  e Estados de Alerta / Operações / Rendição de Meios",
+   "Abreviatura": "Rendição de Meios",
+   "EspecieAbreviatura": "Operações",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9125,
+   "Nome": "Operações  e Estados de Alerta / Operações / Reposicionamento de Meios Aéreos",
+   "Abreviatura": "Reposicionamento de Meios Aéreos",
+   "EspecieAbreviatura": "Operações",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9910,
+   "Nome": "Operações  e Estados de Alerta / Estados de Alerta / Estado de Alerta Especial Nível Azul (Estado de Alerta - nivel 1*)",
+   "Abreviatura": "Estado de Alerta Especial Nível Azul (Estado de Alerta - nivel 1*)",
+   "EspecieAbreviatura": "Estados de Alerta",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9920,
+   "Nome": "Operações  e Estados de Alerta / Estados de Alerta / Estado de Alerta Especial Nível Amarelo (Estado de Alerta - nivel 2*)",
+   "Abreviatura": "Estado de Alerta Especial Nível Amarelo (Estado de Alerta - nivel 2*)",
+   "EspecieAbreviatura": "Estados de Alerta",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9930,
+   "Nome": "Operações  e Estados de Alerta / Estados de Alerta / Estado de Alerta Especial Nível Laranja (Estado de Alerta - nivel 3*)",
+   "Abreviatura": "Estado de Alerta Especial Nível Laranja (Estado de Alerta - nivel 3*)",
+   "EspecieAbreviatura": "Estados de Alerta",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9940,
+   "Nome": "Operações  e Estados de Alerta / Estados de Alerta / Estado de Alerta Especial Nível Vermelho (Estado de Alerta - nivel 4*)",
+   "Abreviatura": "Estado de Alerta Especial Nível Vermelho (Estado de Alerta - nivel 4*)",
+   "EspecieAbreviatura": "Estados de Alerta",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 9999,
+   "Nome": "Operações  e Estados de Alerta / Estados de Alerta / Situação Crítica",
+   "Abreviatura": "Situação Crítica",
+   "EspecieAbreviatura": "Estados de Alerta",
+   "FamiliaAbreviatura": "Operações  e Estados de Alerta"
+ },
+ {
+   "Codigo": 1125,
+   "Nome": "Riscos Naturais / Fenómenos Naturais / Enxurrada/Aluvião",
+   "Abreviatura": "Enxurrada/Aluvião",
+   "EspecieAbreviatura": "Fenómenos Naturais",
+   "FamiliaAbreviatura": "Riscos Naturais"
+ },
+ {
+   "Codigo": 2427,
+   "Nome": "Riscos Tecnológicos / Acidentes / Transporte Suspenso",
+   "Abreviatura": "Transporte Suspenso",
+   "EspecieAbreviatura": "Acidentes",
+   "FamiliaAbreviatura": "Riscos Tecnológicos"
+ }
+]
