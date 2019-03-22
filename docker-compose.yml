@@ -1,7 +1,9 @@
-version: '2'
+version: '3'
 services:
   http:
-    image: webdevops/php-apache-dev:7.1
+    build:
+      context: .
+      dockerfile: Dockerfile
     restart: always
     links:
     - "db"
@@ -11,16 +13,16 @@ services:
     - ./:/app
     labels:
     - "traefik.enable=true"
-    - "traefik.frontend.rule=Host:www.code5.pt"
+    - "traefik.frontend.rule=Host:vost.mariosantos.net"
     - "traefik.port=80"
     - "traefik.frontend.entryPoints=http,https"
     network_mode: "bridge"
   db:
-    image: mysql:5.7
+    image: mariadb
     restart: always
     environment:
-      MYSQL_DATABASE: 'db'
-      MYSQL_ROOT_PASSWORD: 'ThePassword@@'
+      MYSQL_DATABASE: 'vost'
+      MYSQL_ROOT_PASSWORD: 'SuperRootPassword@@'
     ports:
     - '3306:3306'
     expose:
