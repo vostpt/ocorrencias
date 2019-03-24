@@ -1,7 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10302c31-c7b5-4807-8c24-963963be0229" name="Default Changelist" comment="" />
+    <list default="true" id="10302c31-c7b5-4807-8c24-963963be0229" name="Default Changelist" comment="O docker-compose to">
+      <change afterPath="$PROJECT_DIR$/.docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/site.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/contributing/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/documentation/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/getting-started/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/guides/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/help/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/introduction/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/license/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/content/related-projects/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/static/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/archetypes/default.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/_default/__list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/_default/single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/partials/drawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/partials/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/partials/footer_js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/partials/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/partials/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/partials/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/partials/nav_link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/shortcodes/note.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/layouts/shortcodes/warning.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/fonts/icon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/fonts/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/fonts/icon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/fonts/icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/Connection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/ConnectionData.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/ConnectionSSH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/ConnectionSSHAuth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/Session.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/Terminal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/TerminalKeyboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/TerminalShell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/Window.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/KiTTY/WindowAppearance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/DebugRemoteOn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/RemoteDebuggingSuccess.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/RemoteHost.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/RemoteTestDebuggingSuccess.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/RemoteWebDebuggingSuccess.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/BuildDeploymentConnection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/BuildDeploymentConnectionMappings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/BuildDeploymentDebugger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/EditRunConfigurationRemoteExampleTestDebug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/EditRunConfigurationRemoteWebDebug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/LangsPHPDebug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/LangsPHPInterpreters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/LangsPHPPHPUnit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/LangsPHPServers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/WindowsFirewallAllowedApps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/WindowsHyperVManager.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/Settings/hosts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/linux/configuration/debugConfiguration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/PHPStorm/linux/configuration/serverConfiguration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/images/photos/SimpleHostsEditor/AddHost_laravel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/javascripts/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/javascripts/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/stylesheets/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/stylesheets/highlight/highlight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/stylesheets/palettes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/static/stylesheets/temporary.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/DOCUMENTATION/themes/hugo-material-docs/theme.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/adminer/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/aerospike/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/aerospike/aerospike.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/apache2/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/apache2/sites/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/apache2/sites/default.apache.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/apache2/sites/sample.conf.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/apache2/vhost.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/aws/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/aws/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/beanstalkd-console/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/beanstalkd/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/caddy/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/caddy/caddy/Caddyfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/caddy/caddy/authlist.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/certbot/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/certbot/letsencrypt/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/certbot/letsencrypt/.well-known/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/certbot/run-certbot.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/couchdb/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/docker-registry/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/docker-web-ui/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/elasticsearch/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/gitlab/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/grafana/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/haproxy/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/hhvm/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/hhvm/server.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/ide-codiad/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/ide-codiad/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/ide-icecoder/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/ide-theia/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/ide-webide/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/ipython/Dockerfile.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/ipython/Dockerfile.engine" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/ipython/ipcontroller-client.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/ipython/ipcontroller-engine.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/init.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/install-plugins.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/jenkins-support" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/jenkins.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/jenkins_home/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/plugins.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/publish.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/functions.bats" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/install-plugins.bats" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/install-plugins/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/install-plugins/update/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/plugins/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/plugins/plugins.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/runtime.bats" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/test_helpers.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/upgrade-plugins/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/update-official-library.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jupyterhub/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jupyterhub/Dockerfile.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jupyterhub/jupyterhub_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jupyterhub/start-notebook.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jupyterhub/start-singleuser.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jupyterhub/start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jupyterhub/userlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/kibana/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/laravel-echo-server/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/laravel-echo-server/laravel-echo-server.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/laravel-echo-server/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/laravel-horizon/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/laravel-horizon/supervisord.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/laravel-horizon/supervisord.d/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/laravel-horizon/supervisord.d/laravel-horizon.conf.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/logs/apache2/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/logs/nginx/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/logstash/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/logstash/config/logstash.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/logstash/pipeline/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/maildev/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/mailhog/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/manticore/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/manticore/config/sphinx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/memcached/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/minio/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/mongo-webui/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/mongo/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/mosquitto/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/mosquitto/mosquitto.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/mssql/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/mssql/create_table.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/mssql/entrypoint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/mssql/setup.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/mysql/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/mysql/docker-entrypoint-initdb.d/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/mysql/docker-entrypoint-initdb.d/createdb.sql.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/mysql/my.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/neo4j/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/percona/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/percona/docker-entrypoint-initdb.d/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/percona/docker-entrypoint-initdb.d/createdb.sql.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/percona/my.cnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/phpmyadmin/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/portainer/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/postgres-postgis/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/postgres/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/postgres/docker-entrypoint-initdb.d/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/postgres/docker-entrypoint-initdb.d/createdb.sh.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/postgres/docker-entrypoint-initdb.d/init_gitlab_db.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/postgres/docker-entrypoint-initdb.d/init_jupyterhub_db.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/rabbitmq/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/redis-cluster/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/redis-webui/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/redis/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/redis/redis.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/rethinkdb/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/selenium/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/solr/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/thumbor/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/traefik/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/traefik/acme.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/traefik/traefik.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/varnish/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/varnish/default.vcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/varnish/start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/zookeeper/Dockerfile" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,60 +220,73 @@
     <session id="-1682711620">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="91" />
+          <entry key="Dockerfile" value="401" />
+          <entry key="conf" value="28" />
           <entry key="dummy" value="25" />
-          <entry key="env" value="16" />
+          <entry key="env" value="77" />
           <entry key="js" value="972" />
           <entry key="json" value="36" />
+          <entry key="md" value="120" />
           <entry key="php" value="13362" />
           <entry key="scss" value="709" />
-          <entry key="yml" value="44" />
+          <entry key="txt" value="143" />
+          <entry key="yml" value="365" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key=".env file" value="16" />
+          <entry key=".env file" value="77" />
           <entry key="Blade" value="4188" />
-          <entry key="Dockerfile" value="91" />
+          <entry key="Dockerfile" value="401" />
           <entry key="JSON" value="36" />
           <entry key="JavaScript" value="972" />
+          <entry key="Markdown" value="120" />
           <entry key="PHP" value="9122" />
-          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="PLAIN_TEXT" value="168" />
           <entry key="SCSS" value="709" />
           <entry key="SQL" value="52" />
-          <entry key="YAML" value="44" />
+          <entry key="SmartyConfig" value="28" />
+          <entry key="YAML" value="365" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="1" />
+          <entry key="Dockerfile" value="5" />
+          <entry key="conf" value="4" />
+          <entry key="env" value="2" />
+          <entry key="env-example" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="js" value="14" />
           <entry key="json" value="8" />
+          <entry key="md" value="1" />
           <entry key="php" value="106" />
           <entry key="scss" value="10" />
-          <entry key="yml" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key=".env file" value="2" />
           <entry key="Blade" value="23" />
-          <entry key="Dockerfile" value="1" />
+          <entry key="Dockerfile" value="5" />
           <entry key="JSON" value="8" />
           <entry key="JavaScript" value="14" />
+          <entry key="Markdown" value="1" />
           <entry key="PHP" value="83" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="10" />
-          <entry key="YAML" value="1" />
+          <entry key="SmartyConfig" value="4" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -76,58 +294,60 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/_layouts/main.blade.php">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-217">
-              <caret line="229" column="50" selection-start-line="229" selection-start-column="50" selection-end-line="229" selection-end-column="50" />
+            <state relative-caret-position="276">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/backend/index.blade.php">
+        <entry file="file://$PROJECT_DIR$/.docker/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Occurrence.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="766">
-              <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="83" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
-              <folding>
-                <element signature="e#48#84#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="950">
+              <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+        <entry file="file://$PROJECT_DIR$/laradock/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="1014">
+              <caret line="225" column="13" selection-start-line="225" selection-start-column="13" selection-end-line="225" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/laradock/env-example">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laradock/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="1403">
+              <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.docker/site.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -142,23 +362,19 @@
       <find>o</find>
       <find>ocurrence</find>
       <find>admin.backend</find>
+      <find>php</find>
+      <find>workspace</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/laradock" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_19_173800_create_ocurrences_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_21_114724_create_ocurrences_details_table.php" />
-        <option value="$PROJECT_DIR$/database/data/distritos.json" />
-        <option value="$PROJECT_DIR$/database/seeds/DistrictTableSeeder.php" />
-        <option value="$PROJECT_DIR$/database/data/concelhos.json" />
-        <option value="$PROJECT_DIR$/app/Parish.php" />
-        <option value="$PROJECT_DIR$/app/County.php" />
-        <option value="$PROJECT_DIR$/app/District.php" />
         <option value="$PROJECT_DIR$/database/seeds/CountyTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/data/freguesias.json" />
         <option value="$PROJECT_DIR$/database/seeds/ParishTableSeeder.php" />
@@ -199,8 +415,17 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Occurrence.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/.docker/nginx-worker.conf" />
+        <option value="$PROJECT_DIR$/.docker/php-fpm-worker.conf" />
+        <option value="$PROJECT_DIR$/.docker/nginx.conf" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/.docker/site.conf" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/.docker/Dockerfile" />
+        <option value="$PROJECT_DIR$/laradock/.env" />
+        <option value="$PROJECT_DIR$/laradock/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -301,11 +526,13 @@
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="23" />
-    <option name="width" value="960" />
+    <option name="width" value="1920" />
     <option name="height" value="1177" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -318,6 +545,16 @@
               <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name=".docker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="laradock" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -326,7 +563,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="HomeController&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Http/Controllers/Backend/HomeController.php&#10;index.bl&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/index.blade.php&#10;Occurrence&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Occurrence.php&#10;main.l&#9;null&#9;null&#10;Users&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Http/Controllers/Backend/UsersController.php&#10;single.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/single.blade.php&#10;app.js&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/js/app.js&#10;web.php&#9;FILE&#9;file:///Users/mario/code/vost/webapp/routes/web.php&#10;login.blade&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/auth/login.blade.php&#10;comment&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OccurrenceComment.php&#10;occurrence_comm&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_185057_create_occurrence_comments_table.php&#10;app.scss&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/sass/app.scss&#10;single.bla&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/single.blade.php&#10;index.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/index.blade.php&#10;occurrences&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;OccurrenceType&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OccurrenceType.php&#10;occ&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;occurrence_&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;main.blade&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/_layouts/main.blade.php&#10;main.blade.php&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/_layouts/main.blade.php&#10;index.b&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/index.blade.php&#10;retrieve&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Console/Commands/RetrieveOcurrences.php&#10;CreateOc&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;web.ph&#9;FILE&#9;file:///Users/mario/code/vost/webapp/routes/web.php&#10;OcurrenceD&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OcurrenceDetail.php&#10;ocurr&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_114724_create_ocurrence_details_table.php&#10;ocurren&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_ocurrences_table.php&#10;app.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/sass/app.scss&#10;Ocurrences&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Http/Controllers/Backend/OcurrencesController.php&#10;OcurrenceDe&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OcurrenceDetail.php&#10;Ocurrence&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Ocurrence.php&#10;ocurrence_&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_114724_create_ocurrence_details_table.php&#10;index.blade&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/ocurrences/index.blade.php&#10;Retrieve&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Console/Commands/RetrieveOcurrences.php&#10;fregu&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/data/freguesias.json&#10;parishes&#9;null&#9;null&#10;counties&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173717_create_counties_table.php&#10;districts_&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_172000_create_districts_table.php&#10;Distr&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/District.php&#10;Parish&#9;null&#9;null&#10;District&#9;null&#9;null&#10;County&#9;null&#9;null&#10;_counties&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173717_create_counties_table.php&#10;distritos&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/data/distritos.json&#10;ocurrences&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173800_create_ocurrences_table.php&#10;ocurrence_deta&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_114724_create_ocurrences_details_table.php&#10;create_ocurre&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_114724_create_ocurrences_details_table.php&#10;ocurrence&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173800_create_ocurrences_table.php&#10;Ocurrenc&#9;null&#9;null&#10;com&#9;FILE&#9;file:///Users/mario/code/vost/webapp/composer.json" />
+    <property name="SearchEverywhereHistoryKey" value=".env&#9;FILE&#9;file:///Users/mario/code/vost/webapp/.env&#10;readme.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/readme.md&#10;HomeController&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Http/Controllers/Backend/HomeController.php&#10;index.bl&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/index.blade.php&#10;Occurrence&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Occurrence.php&#10;main.l&#9;null&#9;null&#10;Users&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Http/Controllers/Backend/UsersController.php&#10;single.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/single.blade.php&#10;app.js&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/js/app.js&#10;web.php&#9;FILE&#9;file:///Users/mario/code/vost/webapp/routes/web.php&#10;login.blade&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/auth/login.blade.php&#10;comment&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OccurrenceComment.php&#10;occurrence_comm&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_185057_create_occurrence_comments_table.php&#10;app.scss&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/sass/app.scss&#10;single.bla&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/single.blade.php&#10;index.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/index.blade.php&#10;occurrences&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;OccurrenceType&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OccurrenceType.php&#10;occ&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;occurrence_&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;main.blade&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/_layouts/main.blade.php&#10;main.blade.php&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/_layouts/main.blade.php&#10;index.b&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/index.blade.php&#10;retrieve&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Console/Commands/RetrieveOcurrences.php&#10;CreateOc&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;web.ph&#9;FILE&#9;file:///Users/mario/code/vost/webapp/routes/web.php&#10;OcurrenceD&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OcurrenceDetail.php&#10;ocurr&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_114724_create_ocurrence_details_table.php&#10;ocurren&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_ocurrences_table.php&#10;app.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/sass/app.scss&#10;Ocurrences&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Http/Controllers/Backend/OcurrencesController.php&#10;OcurrenceDe&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OcurrenceDetail.php&#10;Ocurrence&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Ocurrence.php&#10;ocurrence_&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_114724_create_ocurrence_details_table.php&#10;index.blade&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/ocurrences/index.blade.php&#10;Retrieve&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Console/Commands/RetrieveOcurrences.php&#10;fregu&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/data/freguesias.json&#10;parishes&#9;null&#9;null&#10;counties&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173717_create_counties_table.php&#10;districts_&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_172000_create_districts_table.php&#10;Distr&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/District.php&#10;Parish&#9;null&#9;null&#10;District&#9;null&#9;null&#10;County&#9;null&#9;null&#10;_counties&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173717_create_counties_table.php&#10;distritos&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/data/distritos.json&#10;ocurrences&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173800_create_ocurrences_table.php&#10;ocurrence_deta&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_114724_create_ocurrences_details_table.php&#10;create_ocurre&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_114724_create_ocurrences_details_table.php&#10;ocurrence&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173800_create_ocurrences_table.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -363,18 +600,62 @@
       <workItem from="1552999212475" duration="2075000" />
       <workItem from="1553010654968" duration="10276000" />
       <workItem from="1553165153151" duration="2505000" />
-      <workItem from="1553168698798" duration="30911000" />
+      <workItem from="1553168698798" duration="37268000" />
+      <workItem from="1553451355405" duration="6430000" />
     </task>
+    <task id="LOCAL-00001" summary="Update readme">
+      <created>1553274019704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553274019704</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update dockerfile and docker-compose.yml">
+      <created>1553275044627</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553275044627</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update dockerfile and docker-compose.yml">
+      <created>1553276017214</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553276017214</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix docker files">
+      <created>1553276952042</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553276952042</updated>
+    </task>
+    <task id="LOCAL-00005" summary="make dockerfile quiet">
+      <created>1553277039489</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553277039489</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix dockerfile">
+      <created>1553279761039</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553279761039</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45767000" />
+    <option name="totallyTimeSpent" value="58554000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1177" extended-state="6" />
+    <frame x="-1" y="23" width="1920" height="1177" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657082" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2683706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -424,76 +705,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update readme" />
+    <MESSAGE value="update dockerfile and docker-compose.yml" />
+    <MESSAGE value="Fix docker files" />
+    <MESSAGE value="make dockerfile quiet" />
+    <MESSAGE value="Fix dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix dockerfile" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/District.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/County.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Parish.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/data/distritos.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/data/concelhos.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/CountyTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/data/freguesias.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="2625" column="20" selection-start-line="2625" selection-start-column="14" selection-end-line="2625" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_19_172000_create_districts_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/ParishTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_19_173717_create_counties_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -508,43 +728,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jquery-bootgrid/dist/jquery.bootgrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17144">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jquery-bootgrid/dist/jquery.bootgrid.js" />
     <entry file="file://$PROJECT_DIR$/resources/js/occurrences.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/datatable/lib/builder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/datatable/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/datatable/lib/builder.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/datatable/index.js" />
     <entry file="file://$PROJECT_DIR$/resources/js/bootstrap_old.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -619,9 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
           <caret line="100" column="46" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="46" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,9 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16">
           <caret line="13" column="5" selection-end-line="55" selection-end-column="1" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,9 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,9 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="776">
           <caret line="83" column="52" selection-start-line="83" selection-start-column="52" selection-end-line="83" selection-end-column="52" />
-          <folding>
-            <element signature="e#3522#3528#1#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,30 +923,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding>
-            <element signature="e#9#15#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/_layouts/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
+        <state relative-caret-position="5267">
           <caret line="229" column="50" selection-start-line="229" selection-start-column="50" selection-end-line="229" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Occurrence.php">
+    <entry file="file://$PROJECT_DIR$/.docker/php-fpm-worker.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -780,17 +963,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/app/Occurrence.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="766">
+          <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.docker/nginx-worker.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.docker/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.docker/site.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="276">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laradock/workspace/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laradock/env-example">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laradock/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1403">
+          <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laradock/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="225" column="13" selection-start-line="225" selection-start-column="13" selection-end-line="225" selection-end-column="13" />
         </state>
       </provider>
     </entry>
