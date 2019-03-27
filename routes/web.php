@@ -19,6 +19,7 @@ Route::post('/login', [\App\Http\Controllers\Auth\LoginController::class, 'login
 Route::get('/register', [\App\Http\Controllers\Auth\RegisterController::class, 'showRegistrationForm'])->name('register');
 Route::post('/register', [\App\Http\Controllers\Auth\RegisterController::class, 'register'])->name('register.post');;
 
+
 Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
     Route::get('', [\App\Http\Controllers\Backend\HomeController::class, 'index'])->name('index');
 

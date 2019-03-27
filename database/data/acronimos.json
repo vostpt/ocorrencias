@@ -1,0 +1,782 @@
+[
+  {
+    "acronimo": "AA",
+    "descricao": "Área de Atuação"
+  },
+  {
+    "acronimo": "AD",
+    "descricao": "Apoio Direto"
+  },
+  {
+    "acronimo": "AD",
+    "descricao": "Apoio Direto"
+  },
+  {
+    "acronimo": "AFN",
+    "descricao": "Autoridade Florestal Nacional"
+  },
+  {
+    "acronimo": "AHB",
+    "descricao": "Associação Humanitária de Bombeiros"
+  },
+  {
+    "acronimo": "AHB",
+    "descricao": "Associações Humanitárias de Bombeiros"
+  },
+  {
+    "acronimo": "ANAC",
+    "descricao": "Autoridade Nacional da Aviação Civil"
+  },
+  {
+    "acronimo": "ANACO",
+    "descricao": "Autoridade Nacional de Comunicações"
+  },
+  {
+    "acronimo": "ANAFR",
+    "descricao": "Associação Nacional de Freguesias"
+  },
+  {
+    "acronimo": "ANBP",
+    "descricao": "Associação Nacional de Bombeiros Profissionais"
+  },
+  {
+    "acronimo": "ANMP",
+    "descricao": "Associação Nacional de Municípios Portugueses"
+  },
+  {
+    "acronimo": "ANPC",
+    "descricao": "Autoridade Nacional de Proteção Civil"
+  },
+  {
+    "acronimo": "ANPC",
+    "descricao": "Autoridade Nacional de Protecção Civil"
+  },
+  {
+    "acronimo": "ANSR",
+    "descricao": "Autoridade Nacional de Segurança Rodoviária"
+  },
+  {
+    "acronimo": "APC",
+    "descricao": "Agentes de Proteção Civil"
+  },
+  {
+    "acronimo": "APC",
+    "descricao": "Agentes de Protecção Civil"
+  },
+  {
+    "acronimo": "ASAE",
+    "descricao": "Agência para a Segurança Alimentar"
+  },
+  {
+    "acronimo": "ATA",
+    "descricao": "Ataque Ampliado"
+  },
+  {
+    "acronimo": "ATI",
+    "descricao": "Ataque Inicial"
+  },
+  {
+    "acronimo": "AVATA",
+    "descricao": "Aviões de Ataque Ampliado"
+  },
+  {
+    "acronimo": "AVATI",
+    "descricao": "Aviões de Ataque Inicial"
+  },
+  {
+    "acronimo": "AVBM",
+    "descricao": "Avião Bombardeiro Médio"
+  },
+  {
+    "acronimo": "AVBP",
+    "descricao": "Avião Bombardeiro Pesado"
+  },
+  {
+    "acronimo": "BAL",
+    "descricao": "Base de Apoio Logístico"
+  },
+  {
+    "acronimo": "BCIN",
+    "descricao": "Brigada de Combate a Incêndios"
+  },
+  {
+    "acronimo": "BHATI",
+    "descricao": "Brigada Helitransportada de Ataque Inicial"
+  },
+  {
+    "acronimo": "BHSP",
+    "descricao": "Base de Helicópteros em Serviço Permanente"
+  },
+  {
+    "acronimo": "BSB",
+    "descricao": "Batalhão de Sapadores Bombeiros"
+  },
+  {
+    "acronimo": "BSF",
+    "descricao": "Brigada de Sapadores Florestais"
+  },
+  {
+    "acronimo": "BTO",
+    "descricao": "Briefing Técnico Operacional"
+  },
+  {
+    "acronimo": "CCB",
+    "descricao": "Comandantes dos Corpos de Bombeiros"
+  },
+  {
+    "acronimo": "CADIS",
+    "descricao": "Comandante Operacional de Agrupamento Distrital"
+  },
+  {
+    "acronimo": "CAS",
+    "descricao": "Comandante de Assistência"
+  },
+  {
+    "acronimo": "CB",
+    "descricao": "Corpo de Bombeiros"
+  },
+  {
+    "acronimo": "CCB",
+    "descricao": "Comandantes dos Corpos de Bombeiros"
+  },
+  {
+    "acronimo": "CCBS",
+    "descricao": "Centros de Coordenação de Busca e Salvamento"
+  },
+  {
+    "acronimo": "CCO",
+    "descricao": "Centros de Coordenação Operacional"
+  },
+  {
+    "acronimo": "CCOD",
+    "descricao": "Centro de Coordenação Operacional Distrital"
+  },
+  {
+    "acronimo": "CCOM",
+    "descricao": "Comando Conjunto para as Operações Militares"
+  },
+  {
+    "acronimo": "CCON",
+    "descricao": "Centro de Coordenação Operacional Nacional"
+  },
+  {
+    "acronimo": "CDOS",
+    "descricao": "Comando Distrital de Operações de Socorro"
+  },
+  {
+    "acronimo": "CDPC",
+    "descricao": "Comissão Distrital de Proteção Civil"
+  },
+  {
+    "acronimo": "CELCOM",
+    "descricao": "Célula Operacional de Logística e Comunicações do CNOS"
+  },
+  {
+    "acronimo": "CETAC",
+    "descricao": "Centro Tático de Comando"
+  },
+  {
+    "acronimo": "CM",
+    "descricao": "Câmaras Municipais"
+  },
+  {
+    "acronimo": "CMA",
+    "descricao": "Centros de Meios Aéreos"
+  },
+  {
+    "acronimo": "CMDF",
+    "descricao": "Comissão Municipal de Defesa da Floresta"
+  },
+  {
+    "acronimo": "CMPC",
+    "descricao": "Comissão Municipal de Protecção Civil"
+  },
+  {
+    "acronimo": "CNAF",
+    "descricao": "Corpo Nacional de Agentes Florestais"
+  },
+  {
+    "acronimo": "CNOS",
+    "descricao": "Comando Nacional de Operações de Socorro"
+  },
+  {
+    "acronimo": "CNPC",
+    "descricao": "Comissão Nacional de Protecção Civil"
+  },
+  {
+    "acronimo": "COC",
+    "descricao": "Comando Operacional Conjunto"
+  },
+  {
+    "acronimo": "CODIS",
+    "descricao": "Comandante Operacional Distrital"
+  },
+  {
+    "acronimo": "COM",
+    "descricao": "Comandante Operacional Municipal"
+  },
+  {
+    "acronimo": "CONAC",
+    "descricao": "Comandante Operacional Nacional"
+  },
+  {
+    "acronimo": "COPAR",
+    "descricao": "Coordenador de Operações Aéreas"
+  },
+  {
+    "acronimo": "COS",
+    "descricao": "Comandante das Operações de Socorro"
+  },
+  {
+    "acronimo": "CPO",
+    "descricao": "Comandante de Permanência às Operações"
+  },
+  {
+    "acronimo": "CRIF",
+    "descricao": "Companhia de Reforço para Incêndios Florestais"
+  },
+  {
+    "acronimo": "CTO",
+    "descricao": "Comunicado Técnico Operacional"
+  },
+  {
+    "acronimo": "CVP",
+    "descricao": "Cruz Vermelha Portuguesa"
+  },
+  {
+    "acronimo": "DECIF",
+    "descricao": "Dispositivo Especial de Combate a Incêndios Florestais"
+  },
+  {
+    "acronimo": "DFCI",
+    "descricao": "Defesa da Floresta Contra Incêndios"
+  },
+  {
+    "acronimo": "DGAM",
+    "descricao": "Direcção-Geral da Autoridade Marítima"
+  },
+  {
+    "acronimo": "DGPCE",
+    "descricao": "Direção-Geral de Proteção Civil e Emergências"
+  },
+  {
+    "acronimo": "DGS",
+    "descricao": "Direcção-Geral da Saúde"
+  },
+  {
+    "acronimo": "DIOPS",
+    "descricao": "Dispositivo Integrado das Operações de Protecção e Socorro"
+  },
+  {
+    "acronimo": "DIPE",
+    "descricao": "Dispositivo Integrado de Prevenção Estrutural"
+  },
+  {
+    "acronimo": "DON",
+    "descricao": "Directiva Operacional Nacional"
+  },
+  {
+    "acronimo": "EAE",
+    "descricao": "Estado de Alerta Especial"
+  },
+  {
+    "acronimo": "EAP",
+    "descricao": "Equipa de Apoio Psicossocial"
+  },
+  {
+    "acronimo": "ECIN",
+    "descricao": "Equipa de Combate a Incêndios Florestais"
+  },
+  {
+    "acronimo": "EDP",
+    "descricao": "Energias de Portugal"
+  },
+  {
+    "acronimo": "EGAUF",
+    "descricao": "Equipa de Grupo de Análise e Uso do Fogo"
+  },
+  {
+    "acronimo": "EHATI",
+    "descricao": "Equipa Helitransportada de Ataque Inicial"
+  },
+  {
+    "acronimo": "EIP",
+    "descricao": "Equipas de Intervenção Permanentes"
+  },
+  {
+    "acronimo": "ELAC",
+    "descricao": "Equipa Logística de Apoio ao Combate"
+  },
+  {
+    "acronimo": "EMA",
+    "descricao": "Empresa de Meios Aéreos"
+  },
+  {
+    "acronimo": "EMEIF",
+    "descricao": "Equipa de Manutenção e Exploração de Informação Florestal"
+  },
+  {
+    "acronimo": "EMGFA",
+    "descricao": "Estado-Maior General das Forças Armadas"
+  },
+  {
+    "acronimo": "EMIF",
+    "descricao": "Equipa Municipal de Intervenção Florestal"
+  },
+  {
+    "acronimo": "EOBS",
+    "descricao": "Equipas de Observação"
+  },
+  {
+    "acronimo": "EP",
+    "descricao": "Estradas de Portugal"
+  },
+  {
+    "acronimo": "EPCO",
+    "descricao": "Equipa de Posto de Comando Operacional"
+  },
+  {
+    "acronimo": "ERAS",
+    "descricao": "Equipas de Reconhecimento e Avaliação da Situação"
+  },
+  {
+    "acronimo": "ERCC",
+    "descricao": "Emergency Response Coordination Centre"
+  },
+  {
+    "acronimo": "ESF",
+    "descricao": "Equipa de Sapadores Florestais"
+  },
+  {
+    "acronimo": "FA",
+    "descricao": "Forças Armadas"
+  },
+  {
+    "acronimo": "FAP",
+    "descricao": "Força Aérea Portuguesa"
+  },
+  {
+    "acronimo": "FEB",
+    "descricao": "Força Especial de Bombeiros"
+  },
+  {
+    "acronimo": "FFAA",
+    "descricao": "Forças Armadas"
+  },
+  {
+    "acronimo": "GAUF",
+    "descricao": "Grupo de Análise e Uso do Fogo"
+  },
+  {
+    "acronimo": "GCIF",
+    "descricao": "Grupo de Combate a Incêndios Florestais"
+  },
+  {
+    "acronimo": "GIPE",
+    "descricao": "Grupo de Intervenção Permanente"
+  },
+  {
+    "acronimo": "GIPS",
+    "descricao": "Grupo de Intervenção de Proteção e Socorro da GNR"
+  },
+  {
+    "acronimo": "GLOR",
+    "descricao": "Grupo Logístico de Reforço"
+  },
+  {
+    "acronimo": "GNR",
+    "descricao": "Guarda Nacional Republicana"
+  },
+  {
+    "acronimo": "GREL",
+    "descricao": "Grupo de Reforço Ligeiro"
+  },
+  {
+    "acronimo": "GRIF",
+    "descricao": "Grupo de Reforço para Combate a Incêndios Florestais"
+  },
+  {
+    "acronimo": "GRUATA",
+    "descricao": "Grupo de Reforço para Ataque Ampliado"
+  },
+  {
+    "acronimo": "GTF",
+    "descricao": "Gabinete Técnico Florestal"
+  },
+  {
+    "acronimo": "HEATA",
+    "descricao": "Helicópteros de Ataque Ampliado"
+  },
+  {
+    "acronimo": "HEATI",
+    "descricao": "Helicópteros de Ataque Inicial"
+  },
+  {
+    "acronimo": "HEB",
+    "descricao": "Helicóptero Bombardeiro"
+  },
+  {
+    "acronimo": "HEBL",
+    "descricao": "Helicóptero Bombardeiro Ligeiro"
+  },
+  {
+    "acronimo": "HEBM",
+    "descricao": "Helicóptero Bombardeiro Médio"
+  },
+  {
+    "acronimo": "HEBP",
+    "descricao": "Helicóptero Bombardeiro Pesado"
+  },
+  {
+    "acronimo": "HESA",
+    "descricao": "Helicóptero de Socorro e Assistência"
+  },
+  {
+    "acronimo": "ICNB",
+    "descricao": "Instituto de Conservação da Natureza e da Biodiversidade"
+  },
+  {
+    "acronimo": "ICNF",
+    "descricao": "Instituto de Conservação da Natureza e das Florestas"
+  },
+  {
+    "acronimo": "IFN",
+    "descricao": "Inventário Florestal Nacional"
+  },
+  {
+    "acronimo": "IM",
+    "descricao": "Instituto de Meteorologia"
+  },
+  {
+    "acronimo": "IML",
+    "descricao": "Instituto de Medicina Legal"
+  },
+  {
+    "acronimo": "INAC",
+    "descricao": "Instituto Nacional de Aviação Civil"
+  },
+  {
+    "acronimo": "INEM",
+    "descricao": "Instituto Nacional de Emergência Médica"
+  },
+  {
+    "acronimo": "INRI",
+    "descricao": "Instituto de Infra-Estruturas Rodoviárias"
+  },
+  {
+    "acronimo": "INSTROP",
+    "descricao": "Instrução operacional"
+  },
+  {
+    "acronimo": "IPMA",
+    "descricao": "Instituto Português do Mar e da Atmosfera"
+  },
+  {
+    "acronimo": "IPTM",
+    "descricao": "Instituto Portuário e dos Transportes Marítimos"
+  },
+  {
+    "acronimo": "ISS",
+    "descricao": "Instituto de Segurança Social"
+  },
+  {
+    "acronimo": "ITG",
+    "descricao": "Instituto Tecnológico do Gás"
+  },
+  {
+    "acronimo": "JF",
+    "descricao": "Juntas de Freguesia"
+  },
+  {
+    "acronimo": "LEPP",
+    "descricao": "Local Estratégico de Pré-posicionamento"
+  },
+  {
+    "acronimo": "LNEC",
+    "descricao": "Laboratório Nacional de"
+  },
+  {
+    "acronimo": "LNEC",
+    "descricao": "Laboratório Nacional de Engenharia Civil"
+  },
+  {
+    "acronimo": "MAA",
+    "descricao": "Monitorização Aérea Armada"
+  },
+  {
+    "acronimo": "MAI",
+    "descricao": "Ministra da Administração Interna/Ministério da Administração Interna"
+  },
+  {
+    "acronimo": "MARAC - Meio aéreo de reconhecimento",
+    "descricao": "avaliação e coordenação"
+  },
+  {
+    "acronimo": "MN",
+    "descricao": "Matas Nacionais"
+  },
+  {
+    "acronimo": "MR",
+    "descricao": "Máquina de Rasto"
+  },
+  {
+    "acronimo": "MRCC",
+    "descricao": "Maritime Rescue Coordenation Centre"
+  },
+  {
+    "acronimo": "NEP",
+    "descricao": "Norma de Execução Permanente"
+  },
+  {
+    "acronimo": "NOP",
+    "descricao": "Norma Operacional Permanente"
+  },
+  {
+    "acronimo": "OB",
+    "descricao": "Organização de Baldios"
+  },
+  {
+    "acronimo": "OCS",
+    "descricao": "Órgãos de Comunicação Social"
+  },
+  {
+    "acronimo": "OPAR",
+    "descricao": "Oficial de Operações Aéreas"
+  },
+  {
+    "acronimo": "OPF",
+    "descricao": "Organização de Produtores Florestais"
+  },
+  {
+    "acronimo": "PCO",
+    "descricao": "Posto de Comando Operacional"
+  },
+  {
+    "acronimo": "PCOC",
+    "descricao": "Posto de Comando Operacional Conjunto"
+  },
+  {
+    "acronimo": "PDEPC",
+    "descricao": "Plano Distrital de Emergência de Proteção Civil"
+  },
+  {
+    "acronimo": "PJ",
+    "descricao": "Polícia Judiciária"
+  },
+  {
+    "acronimo": "PLACOM",
+    "descricao": "Plano de Comunicações"
+  },
+  {
+    "acronimo": "PLANOP",
+    "descricao": "Plano de Operações"
+  },
+  {
+    "acronimo": "PMA",
+    "descricao": "Posto Médico Avançado"
+  },
+  {
+    "acronimo": "PMEPC",
+    "descricao": "Plano Municipal de Emergência de Proteção Civil"
+  },
+  {
+    "acronimo": "PNDFCI",
+    "descricao": "Plano Nacional de Defesa da Floresta Contra Incêndios"
+  },
+  {
+    "acronimo": "PNEPC",
+    "descricao": "Plano Nacional de Emergência de Proteção Civil"
+  },
+  {
+    "acronimo": "PNPG",
+    "descricao": "Parque Nacional da Peneda-Gerês"
+  },
+  {
+    "acronimo": "POM",
+    "descricao": "Plano Operacional Municipal"
+  },
+  {
+    "acronimo": "POSIT",
+    "descricao": "Ponto de Situação"
+  },
+  {
+    "acronimo": "PSP",
+    "descricao": "Polícia de Segurança Pública"
+  },
+  {
+    "acronimo": "PT",
+    "descricao": "Ponto de Trânsito"
+  },
+  {
+    "acronimo": "PT",
+    "descricao": "Portugal"
+  },
+  {
+    "acronimo": "PT",
+    "descricao": "Portugal Telecom"
+  },
+  {
+    "acronimo": "RCDM",
+    "descricao": "Relatório de Controlo Diário de Missão"
+  },
+  {
+    "acronimo": "REFER",
+    "descricao": "Rede Ferroviária Nacional"
+  },
+  {
+    "acronimo": "REN",
+    "descricao": "Rede Eléctrica Nacional"
+  },
+  {
+    "acronimo": "RNAP",
+    "descricao": "Rede Nacional de Áreas Protegidas"
+  },
+  {
+    "acronimo": "RNPV",
+    "descricao": "Rede Nacional de Postos de Vigia"
+  },
+  {
+    "acronimo": "ROB",
+    "descricao": "Rede Operacional dos Bombeiros"
+  },
+  {
+    "acronimo": "ROB",
+    "descricao": "Rede Operacional dos Bombeiros"
+  },
+  {
+    "acronimo": "RPAP",
+    "descricao": "Relatório Preliminar sobre Acidentes Pessoais"
+  },
+  {
+    "acronimo": "RPAV",
+    "descricao": "Relatório Preliminar sobre Acidentes com Veículos"
+  },
+  {
+    "acronimo": "RSB",
+    "descricao": "Regimento de Sapadores Bombeiros"
+  },
+  {
+    "acronimo": "SADO",
+    "descricao": "Sistema de Apoio à Decisão Operacional"
+  },
+  {
+    "acronimo": "SDFCI",
+    "descricao": "Sistema de Defesa da Floresta Contra Incêndios"
+  },
+  {
+    "acronimo": "SEAI",
+    "descricao": "Secretário de Estado da Administração Interna"
+  },
+  {
+    "acronimo": "SEPC",
+    "descricao": "Secretário de estado da Protecção Civil"
+  },
+  {
+    "acronimo": "SEPNA",
+    "descricao": "Serviço de Protecção da Natureza e do Ambiente"
+  },
+  {
+    "acronimo": "SF",
+    "descricao": "Sapadores Florestais"
+  },
+  {
+    "acronimo": "SGO",
+    "descricao": "Sistema de Gestão de Operações"
+  },
+  {
+    "acronimo": "SGSSI",
+    "descricao": "Secretária-Geral do Sistema de Segurança Interna"
+  },
+  {
+    "acronimo": "SIOPS",
+    "descricao": "Sistema Integrado de operações de Protecção e Socorro"
+  },
+  {
+    "acronimo": "SIRESP",
+    "descricao": "Sistema Integrado de Redes de Emergência e Segurança de Portugal"
+  },
+  {
+    "acronimo": "SMPC",
+    "descricao": "Serviço Municipal de Proteção Civil"
+  },
+  {
+    "acronimo": "SMS",
+    "descricao": "Short Message Service"
+  },
+  {
+    "acronimo": "SNBS",
+    "descricao": "Sistemas Nacionais de Busca e Salvamento"
+  },
+  {
+    "acronimo": "SNIRH",
+    "descricao": "Sistema Nacional de Informação de Recursos Hídricos"
+  },
+  {
+    "acronimo": "TO",
+    "descricao": "Teatro de Operações"
+  },
+  {
+    "acronimo": "UE",
+    "descricao": "União Europeia"
+  },
+  {
+    "acronimo": "VALE",
+    "descricao": "Veículo de Apoio Logístico"
+  },
+  {
+    "acronimo": "VCI",
+    "descricao": "Veículo de Combate a Incêndios"
+  },
+  {
+    "acronimo": "VCOC",
+    "descricao": "Veículo de Comando e Comunicações"
+  },
+  {
+    "acronimo": "VCOT",
+    "descricao": "Veículo de Comando Tático"
+  },
+  {
+    "acronimo": "VGEO",
+    "descricao": "Veículo de Gestão Estratégica e Operações"
+  },
+  {
+    "acronimo": "VHF",
+    "descricao": "Very High Frequency"
+  },
+  {
+    "acronimo": "VOPE",
+    "descricao": "Veículo de Operações Específicas"
+  },
+  {
+    "acronimo": "VPCC",
+    "descricao": "Veículo de Planeamento"
+  },
+  {
+    "acronimo": "VTT",
+    "descricao": "Veículo Tanque Tático"
+  },
+  {
+    "acronimo": "VTTP",
+    "descricao": "Veículo de Transporte Tático de Pessoal"
+  },
+  {
+    "acronimo": "ZA",
+    "descricao": "Zona de Apoio"
+  },
+  {
+    "acronimo": "ZCR",
+    "descricao": "Zona de Concentração e Reserva"
+  },
+  {
+    "acronimo": "ZI",
+    "descricao": "Zona de Intervenção"
+  },
+  {
+    "acronimo": "ZRR",
+    "descricao": "Zona de Receção de Reforços"
+  },
+  {
+    "acronimo": "ZS",
+    "descricao": "Zona de Sinistro"
+  }
+]
