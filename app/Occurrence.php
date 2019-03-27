@@ -23,6 +23,43 @@ class Occurrence extends Model
             'local',
             'started_at',
             'type_id',
+            'NumeroMeiosAereosEnvolvidos',
+            'NumeroMeiosTerrestresEnvolvidos',
+            'NumeroOperacionaisAereosEnvolvidos',
+            'NumeroOperacionaisTerrestresEnvolvidos',
+            'state',
+            'state_id',
+            'important',
+            'cos',
+            'entidadesNoTO',
+            'notas',
+            'GruposReforcoEnvolvidos',
+            'NumAvioesMediosEnvolvidos',
+            'NumAvioesOutrosEnvolvidos',
+            'NumAvioesPesadosEnvolvidos',
+            'NumBombeirosEnvolvidos',
+            'NumBombeirosOperEnvolvidos',
+            'NumEsfEnvolvidos',
+            'NumEsfOperEnvolvidos',
+            'NumFAAEnvolvidos',
+            'NumFAAOperEnvolvidos',
+            'NumFebEnvolvidos',
+            'NumFebOperEnvolvidos',
+            'NumGNRGipsEnvolvidos',
+            'NumGNRGipsOperEnvolvidos',
+            'NumGNROutrosEnvolvidos',
+            'NumGNROutrosOperEnvolvidos',
+            'NumPSPEnvolvidos',
+            'NumPSPOperEnvolvidos',
+            'NumHelicopterosLigeirosMediosEnvolvidos',
+            'NumHelicopterosOutrosEnvolvidos',
+            'NumHelicopterosPesadosEnvolvidos',
+            'OutrosOperacionaisEnvolvidos',
+            'POSITDescricao',
+            'PCO',
+            'PontoSituacao',
+            'PPIAtivados',
+            'api_response',
         ];
 
     protected $with
@@ -62,6 +99,9 @@ class Occurrence extends Model
 
     public static function active()
     {
+        $active = self::whereIn('state_id', [5, 6, 7])->get();
+
+        return $active;
         $sql
             = \DB::select(\DB::raw('select od.*, o.*, d.name district, c.name county, p.name parish, od.created_at last_update, ot.name nature from occurrences o 
                                 join occurrence_details od on od.id = (SELECT id from occurrence_details where occurrence_details.occurrence_id = o.id order by created_at desc limit 1)

@@ -121,15 +121,21 @@ class RetrieveOcurrences extends Command
                 $type = OccurrenceType::where('code', $item->Natureza->Codigo)->first();
 
                 $occurrence = Occurrence::create([
-                    'prociv_id'   => $item->Numero,
-                    'lat'         => $item->Latitude,
-                    'lon'         => $item->Longitude,
-                    'district_id' => $district->id,
-                    'county_id'   => $county->id,
-                    'parish_id'   => $parish->id,
-                    'locality'    => $item->Localidade,
-                    'started_at'  => $started_at,
-                    'type_id'     => $type->id,
+                    'prociv_id'                              => $item->Numero,
+                    'lat'                                    => $item->Latitude,
+                    'lon'                                    => $item->Longitude,
+                    'district_id'                            => $district->id,
+                    'county_id'                              => $county->id,
+                    'parish_id'                              => $parish->id,
+                    'locality'                               => $item->Localidade,
+                    'started_at'                             => $started_at,
+                    'type_id'                                => $type->id,
+                    'NumeroMeiosAereosEnvolvidos'            => $item->NumeroMeiosAereosEnvolvidos,
+                    'NumeroMeiosTerrestresEnvolvidos'        => $item->NumeroMeiosTerrestresEnvolvidos,
+                    'NumeroOperacionaisAereosEnvolvidos'     => $item->NumeroOperacionaisAereosEnvolvidos,
+                    'NumeroOperacionaisTerrestresEnvolvidos' => $item->NumeroOperacionaisTerrestresEnvolvidos,
+                    'state'                                  => $item->EstadoOcorrencia->Name,
+                    'state_id'                               => $item->EstadoOcorrenciaID,
                 ]);
             }
 
@@ -151,6 +157,40 @@ class RetrieveOcurrences extends Command
         foreach ($main_result as $item) {
             $this->info('Número: '.$item->Numero);
             $occurrence = Occurrence::where('prociv_id', $item->Numero)->first();
+
+            $occurrence->update([
+                'important'                               => true,
+                'cos'                                     => $item->COS,
+                'entidadesNoTO'                           => $item->EntidadesNoTO,
+                'notas'                                   => $item->Notas,
+                'GruposReforcoEnvolvidos'                 => $item->GruposReforcoEnvolvidos,
+                'NumAvioesMediosEnvolvidos'               => $item->NumAvioesMediosEnvolvidos,
+                'NumAvioesOutrosEnvolvidos'               => $item->NumAvioesOutrosEnvolvidos,
+                'NumAvioesPesadosEnvolvidos'              => $item->NumAvioesPesadosEnvolvidos,
+                'NumBombeirosEnvolvidos'                  => $item->NumBombeirosEnvolvidos,
+                'NumBombeirosOperEnvolvidos'              => $item->NumBombeirosOperEnvolvidos,
+                'NumEsfEnvolvidos'                        => $item->NumEsfEnvolvidos,
+                'NumEsfOperEnvolvidos'                    => $item->NumEsfOperEnvolvidos,
+                'NumFAAEnvolvidos'                        => $item->NumFAAEnvolvidos,
+                'NumFAAOperEnvolvidos'                    => $item->NumFAAOperEnvolvidos,
+                'NumFebEnvolvidos'                        => $item->NumFebEnvolvidos,
+                'NumFebOperEnvolvidos'                    => $item->NumFebOperEnvolvidos,
+                'NumGNRGipsEnvolvidos'                    => $item->NumGNRGipsEnvolvidos,
+                'NumGNRGipsOperEnvolvidos'                => $item->NumGNRGipsOperEnvolvidos,
+                'NumGNROutrosEnvolvidos'                  => $item->NumGNROutrosEnvolvidos,
+                'NumGNROutrosOperEnvolvidos'              => $item->NumGNROutrosOperEnvolvidos,
+                'NumPSPEnvolvidos'                        => $item->NumPSPEnvolvidos,
+                'NumPSPOperEnvolvidos'                    => $item->NumPSPOperEnvolvidos,
+                'NumHelicopterosLigeirosMediosEnvolvidos' => $item->NumHelicopterosLigeirosMediosEnvolvidos,
+                'NumHelicopterosOutrosEnvolvidos'         => $item->NumHelicopterosOutrosEnvolvidos,
+                'NumHelicopterosPesadosEnvolvidos'        => $item->NumHelicopterosPesadosEnvolvidos,
+                'OutrosOperacionaisEnvolvidos'            => $item->OutrosOperacionaisEnvolvidos,
+                'POSITDescricao'                          => $item->POSITDescricao,
+                'PCO'                                     => $item->PCO,
+                'PontoSituacao'                           => $item->PontoSituacao,
+                'PPIAtivados'                             => $item->PPIAtivados,
+                'api_response'                            => json_encode((array)$item),
+            ]);
 
             $last_detail = $occurrence->last_detail;
 
