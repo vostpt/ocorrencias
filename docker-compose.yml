@@ -3,29 +3,32 @@ version: '3.1'
 services:
   app:
     build: .
-    working_dir: /opt/www
-    ports:
-    - '9000:9000'
+    working_dir: /var/www
+    depends_on:
+    - database
     networks:
-    - vost
+    - web
     volumes:
-    - ./:/opt/www
+    - ./:/var/www
   nginx:
     image: nginx
     networks:
-    - vost
-    ports:
-    - "8087:80"
+    - web
+    labels:
+    - 'traefik.enable=true'
+    - 'traefik.frontend.rule=Host:vost.mariosantos.net'
+    - 'traefik.port=80'
+    - 'traefik.docker.network=web'
     volumes:
-    - ./:/opt/www
+    - ./:/var/www
     - ./.docker/nginx.conf:/etc/nginx/nginx.conf
   database:
     image: mariadb
     networks:
-    - vost
+    - web
     environment:
     - MYSQL_ROOT_PASSWORD=SuperRootPassword
     - MYSQL_DATABASE=vost
 networks:
-  vost:
+  web:
     external: true
