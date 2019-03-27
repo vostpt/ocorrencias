@@ -28,7 +28,7 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')
         //          ->hourly();
 
-        $schedule->command('vost:retrieve-ocurrences')->everyMinute()->appendOutputTo(storage_path()."/logs/scheduler/occurrences.log");
+        $schedule->command('vost:retrieve-ocurrences')->everyFiveMinutes()->appendOutputTo(storage_path()."/logs/scheduler/occurrences.log");
 
         $schedule->command('vost:download-firms-file')->hourly()->appendOutputTo(storage_path()."/logs/scheduler/firms-download.log");;
     }
