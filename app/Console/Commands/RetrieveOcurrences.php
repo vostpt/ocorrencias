@@ -146,6 +146,7 @@ class RetrieveOcurrences extends Command
                     'NumeroOperacionaisTerrestresEnvolvidos' => $item->NumeroOperacionaisTerrestresEnvolvidos,
                     'state'                                  => $item->EstadoOcorrencia->Name,
                     'state_id'                               => $item->EstadoOcorrenciaID,
+                    'updated_at'                             => Carbon::now(),
                 ]);
             }
 
