@@ -20,6 +20,12 @@ RUN chgrp -R www-data storage bootstrap/cache
 RUN curl --silent --show-error https://getcomposer.org/installer | php && \
     mv composer.phar /usr/local/bin/composer
 
+COPY .docker/crontab /etc/cron.d/scheduler
+
+RUN chmod 0644 /etc/cron.d/scheduler
+
+RUN service cron start
+
 RUN composer install --no-dev --quiet
 
 EXPOSE 9000
