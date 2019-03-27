@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10302c31-c7b5-4807-8c24-963963be0229" name="Default Changelist" comment="add labels to docker-compose">
+    <list default="true" id="10302c31-c7b5-4807-8c24-963963be0229" name="Default Changelist" comment="fix nginx.conf folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/RetrieveOcurrences.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/RetrieveOcurrences.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/OccurrenceDetail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/OccurrenceDetail.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,81 +19,82 @@
     <session id="-1682711620">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Dockerfile" value="813" />
-          <entry key="conf" value="58" />
-          <entry key="crontab" value="69" />
+          <entry key="Dockerfile" value="817" />
+          <entry key="conf" value="61" />
+          <entry key="crontab" value="105" />
           <entry key="dummy" value="25" />
-          <entry key="env" value="104" />
+          <entry key="env" value="112" />
           <entry key="gitignore" value="19" />
           <entry key="js" value="1833" />
           <entry key="json" value="36" />
           <entry key="md" value="120" />
-          <entry key="php" value="15293" />
+          <entry key="php" value="16796" />
           <entry key="scss" value="803" />
-          <entry key="txt" value="276" />
-          <entry key="yml" value="827" />
+          <entry key="txt" value="465" />
+          <entry key="yml" value="843" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key=".env file" value="104" />
-          <entry key="Blade" value="4887" />
-          <entry key="Dockerfile" value="813" />
+          <entry key=".env file" value="112" />
+          <entry key="Blade" value="4982" />
+          <entry key="Dockerfile" value="817" />
           <entry key="HTML" value="3" />
           <entry key="JSON" value="36" />
           <entry key="JavaScript" value="1830" />
           <entry key="Markdown" value="120" />
-          <entry key="PHP" value="10353" />
-          <entry key="PLAIN_TEXT" value="389" />
+          <entry key="PHP" value="11761" />
+          <entry key="PLAIN_TEXT" value="614" />
           <entry key="SCSS" value="803" />
           <entry key="SQL" value="53" />
-          <entry key="SmartyConfig" value="58" />
-          <entry key="YAML" value="827" />
+          <entry key="SmartyConfig" value="61" />
+          <entry key="YAML" value="843" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Dockerfile" value="10" />
-          <entry key="conf" value="11" />
-          <entry key="crontab" value="1" />
-          <entry key="env" value="5" />
+          <entry key="Dockerfile" value="11" />
+          <entry key="conf" value="13" />
+          <entry key="crontab" value="3" />
+          <entry key="env" value="6" />
           <entry key="env-example" value="1" />
           <entry key="example" value="1" />
           <entry key="gitignore" value="3" />
           <entry key="js" value="16" />
           <entry key="json" value="8" />
           <entry key="kml" value="2" />
+          <entry key="lock" value="1" />
           <entry key="log" value="5" />
           <entry key="md" value="1" />
-          <entry key="php" value="126" />
+          <entry key="php" value="137" />
           <entry key="scss" value="11" />
           <entry key="yml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="6" />
-          <entry key="Blade" value="29" />
-          <entry key="Dockerfile" value="10" />
-          <entry key="JSON" value="8" />
+          <entry key=".env file" value="7" />
+          <entry key="Blade" value="30" />
+          <entry key="Dockerfile" value="11" />
+          <entry key="JSON" value="9" />
           <entry key="JavaScript" value="16" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="97" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PHP" value="107" />
+          <entry key="PLAIN_TEXT" value="14" />
           <entry key="SCSS" value="11" />
-          <entry key="SmartyConfig" value="11" />
+          <entry key="SmartyConfig" value="13" />
           <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
@@ -101,37 +103,49 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+        <entry file="file://$PROJECT_DIR$/app/Console/Commands/RetrieveOcurrences.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="856">
+              <caret line="187" column="87" lean-forward="true" selection-start-line="157" selection-start-column="16" selection-end-line="187" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/app/OccurrenceDetail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/_layouts/main.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="806">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+              <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+              <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+              <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -139,8 +153,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="276">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Console/Commands/RetrieveMainOccurrences.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3">
+              <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+              <folding>
+                <element signature="e#40#59#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_27_183047_add_important_details_to_details_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="46" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/backend/occurrences/single.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Occurrence.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -159,6 +212,8 @@
       <find>BLACKFIRE_CLIENT_ID</find>
       <find>workspace</find>
       <find>nginx.conf</find>
+      <find>/opt</find>
+      <find>/opt/</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -170,15 +225,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_21_114724_create_ocurrence_details_table.php" />
-        <option value="$PROJECT_DIR$/resources/js/occurrences.js" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_19_173900_create_ocurrences_table.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/ocurrences/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Ocurrence.php" />
         <option value="$PROJECT_DIR$/app/OcurrenceDetail.php" />
-        <option value="$PROJECT_DIR$/app/OccurrenceDetail.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/OcurrencesController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_21_114724_create_occurrence_details_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_22_113849_create_occurrence_type_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_22_113849_create_occurrence_types_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
@@ -202,25 +253,29 @@
         <option value="$PROJECT_DIR$/.docker/Dockerfile" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/backend/occurrences/single.blade.php" />
         <option value="$PROJECT_DIR$/app/Console/Commands/DownloadFIRMSKML.php" />
-        <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Occurrence.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/_layouts/main.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/_custom.scss" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
-        <option value="$PROJECT_DIR$/app/Console/Commands/RetrieveOcurrences.php" />
         <option value="$PROJECT_DIR$/.docker/site.conf" />
-        <option value="$PROJECT_DIR$/.docker/nginx.conf" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/storage/kml_files/.gitignore" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/.docker/crontab" />
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/.docker/nginx.conf" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
+        <option value="$PROJECT_DIR$/.docker/crontab" />
+        <option value="$PROJECT_DIR$/resources/views/backend/occurrences/single.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_21_114724_create_occurrence_details_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_27_183047_add_important_details_to_details_table.php" />
+        <option value="$PROJECT_DIR$/app/Console/Commands/RetrieveMainOccurrences.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Console/Commands/RetrieveOcurrences.php" />
+        <option value="$PROJECT_DIR$/app/OccurrenceDetail.php" />
       </list>
     </option>
   </component>
@@ -323,7 +378,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
+    <option name="width" value="1706" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -332,6 +387,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,21 +403,34 @@
             <path>
               <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+              <item name="Commands" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="AppService&#9;null&#9;null&#10;main.b&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/_layouts/main.blade.php&#10;Retrieve&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Console/Commands/RetrieveOcurrences.php&#10;.log&#9;FILE&#9;file:///Users/mario/code/vost/webapp/storage/logs/scheduler/occurrences.log&#10;Home&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Http/Controllers/Backend/HomeController.php&#10;Occurrence&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Occurrence.php&#10;single.blade&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/single.blade.php&#10;custom.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/sass/_custom.scss&#10;app.j&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/js/app.js&#10;web.php&#9;FILE&#9;file:///Users/mario/code/vost/webapp/routes/web.php&#10;login.bl&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/auth/login.blade.php&#10;.env&#9;FILE&#9;file:///Users/mario/code/vost/webapp/.env&#10;readme.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/readme.md&#10;HomeController&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Http/Controllers/Backend/HomeController.php&#10;index.bl&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/index.blade.php&#10;main.l&#9;null&#9;null&#10;Users&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Http/Controllers/Backend/UsersController.php&#10;single.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/single.blade.php&#10;app.js&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/js/app.js&#10;login.blade&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/auth/login.blade.php&#10;comment&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OccurrenceComment.php&#10;occurrence_comm&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_185057_create_occurrence_comments_table.php&#10;app.scss&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/sass/app.scss&#10;single.bla&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/single.blade.php&#10;index.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/index.blade.php&#10;occurrences&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;OccurrenceType&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OccurrenceType.php&#10;occ&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;occurrence_&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;main.blade&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/_layouts/main.blade.php&#10;main.blade.php&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/_layouts/main.blade.php&#10;index.b&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/index.blade.php&#10;retrieve&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Console/Commands/RetrieveOcurrences.php&#10;CreateOc&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;web.ph&#9;FILE&#9;file:///Users/mario/code/vost/webapp/routes/web.php&#10;OcurrenceD&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OcurrenceDetail.php&#10;ocurr&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_114724_create_ocurrence_details_table.php&#10;ocurren&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_ocurrences_table.php&#10;app.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/sass/app.scss&#10;Ocurrences&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Http/Controllers/Backend/OcurrencesController.php&#10;OcurrenceDe&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OcurrenceDetail.php&#10;Ocurrence&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Ocurrence.php&#10;ocurrence_&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_114724_create_ocurrence_details_table.php&#10;index.blade&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/ocurrences/index.blade.php&#10;fregu&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/data/freguesias.json&#10;parishes&#9;null&#9;null&#10;counties&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173717_create_counties_table.php&#10;districts_&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_172000_create_districts_table.php&#10;Distr&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/District.php&#10;Parish&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="Occur&#9;null&#9;null&#10;.env&#9;FILE&#9;file:///Users/mario/code/vost/webapp/.env&#10;Occurrence&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Occurrence.php&#10;add_impo&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_27_183047_add_important_details_to_details_table.php&#10;occurrence&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_114724_create_occurrence_details_table.php&#10;single&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/single.blade.php&#10;Kernel&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Console/Kernel.php&#10;AppService&#9;null&#9;null&#10;main.b&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/_layouts/main.blade.php&#10;Retrieve&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Console/Commands/RetrieveOcurrences.php&#10;.log&#9;FILE&#9;file:///Users/mario/code/vost/webapp/storage/logs/scheduler/occurrences.log&#10;Home&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Http/Controllers/Backend/HomeController.php&#10;single.blade&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/single.blade.php&#10;custom.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/sass/_custom.scss&#10;app.j&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/js/app.js&#10;web.php&#9;FILE&#9;file:///Users/mario/code/vost/webapp/routes/web.php&#10;login.bl&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/auth/login.blade.php&#10;readme.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/readme.md&#10;HomeController&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Http/Controllers/Backend/HomeController.php&#10;index.bl&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/index.blade.php&#10;main.l&#9;null&#9;null&#10;Users&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Http/Controllers/Backend/UsersController.php&#10;single.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/single.blade.php&#10;app.js&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/js/app.js&#10;login.blade&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/auth/login.blade.php&#10;comment&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OccurrenceComment.php&#10;occurrence_comm&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_185057_create_occurrence_comments_table.php&#10;app.scss&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/sass/app.scss&#10;single.bla&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/single.blade.php&#10;index.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/index.blade.php&#10;occurrences&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;OccurrenceType&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OccurrenceType.php&#10;occ&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;occurrence_&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;main.blade&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/_layouts/main.blade.php&#10;main.blade.php&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/_layouts/main.blade.php&#10;index.b&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/occurrences/index.blade.php&#10;retrieve&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Console/Commands/RetrieveOcurrences.php&#10;CreateOc&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_occurrences_table.php&#10;web.ph&#9;FILE&#9;file:///Users/mario/code/vost/webapp/routes/web.php&#10;OcurrenceD&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OcurrenceDetail.php&#10;ocurr&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_114724_create_ocurrence_details_table.php&#10;ocurren&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_19_173900_create_ocurrences_table.php&#10;app.&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/sass/app.scss&#10;Ocurrences&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Http/Controllers/Backend/OcurrencesController.php&#10;OcurrenceDe&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/OcurrenceDetail.php&#10;Ocurrence&#9;FILE&#9;file:///Users/mario/code/vost/webapp/app/Ocurrence.php&#10;ocurrence_&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/migrations/2019_03_21_114724_create_ocurrence_details_table.php&#10;index.blade&#9;FILE&#9;file:///Users/mario/code/vost/webapp/resources/views/backend/ocurrences/index.blade.php&#10;fregu&#9;FILE&#9;file:///Users/mario/code/vost/webapp/database/data/freguesias.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -399,7 +468,8 @@
       <workItem from="1553522539765" duration="5880000" />
       <workItem from="1553617229700" duration="4999000" />
       <workItem from="1553636978429" duration="8206000" />
-      <workItem from="1553687822043" duration="4162000" />
+      <workItem from="1553687822043" duration="6298000" />
+      <workItem from="1553706465286" duration="5908000" />
     </task>
     <task id="LOCAL-00001" summary="Update readme">
       <created>1553274019704</created>
@@ -471,17 +541,59 @@
       <option name="project" value="LOCAL" />
       <updated>1553694466038</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix cronjob">
+      <created>1553695193068</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1553695193068</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix nginx.conf folder">
+      <created>1553695380176</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1553695380176</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Retrieve Occurrences every Five Minutes">
+      <created>1553696925961</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1553696925961</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update crontab">
+      <created>1553697261317</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1553697261317</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix crontab and change name to be county name instead of locality">
+      <created>1553709993111</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1553709993111</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add Prociv_id">
+      <created>1553710055625</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1553710055625</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83581000" />
+    <option name="totallyTimeSpent" value="91625000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="0" />
+    <frame x="0" y="23" width="1706" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27902022" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -503,12 +615,12 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26783812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -517,7 +629,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32947975" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -541,51 +653,15 @@
     <MESSAGE value="Fix Dockerfile permissions" />
     <MESSAGE value="add traefik" />
     <MESSAGE value="add crontab" />
-    <option name="LAST_COMMIT_MESSAGE" value="add crontab" />
+    <MESSAGE value="fix cronjob" />
+    <MESSAGE value="fix nginx.conf folder" />
+    <MESSAGE value="Retrieve Occurrences every Five Minutes" />
+    <MESSAGE value="update crontab" />
+    <MESSAGE value="fix crontab and change name to be county name instead of locality" />
+    <MESSAGE value="Add Prociv_id" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Prociv_id" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_22_113849_create_occurrence_types_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_19_173900_create_occurrences_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/OccurrenceType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_21_185057_create_occurrence_comments_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="897">
@@ -656,20 +732,8 @@
     <entry file="file://$PROJECT_DIR$/laradock/.env" />
     <entry file="file://$PROJECT_DIR$/laradock/docker-compose.yml" />
     <entry file="file://$PROJECT_DIR$/laradock/env-example" />
-    <entry file="file://$PROJECT_DIR$/.docker/nginx-worker.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.docker/php-fpm-worker.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.docker/nginx-worker.conf" />
+    <entry file="file://$PROJECT_DIR$/.docker/php-fpm-worker.conf" />
     <entry file="file://$PROJECT_DIR$/.env.example">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -701,13 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/OccurrenceComment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -729,27 +786,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Occurrence.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="88" column="65" selection-start-line="88" selection-start-column="65" selection-end-line="88" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/occurrences/single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/backend/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding>
-            <element signature="e#869#890#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -760,31 +800,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.docker/site.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.docker/site.conf" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.docker/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/RetrieveOcurrences.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="70" column="35" lean-forward="true" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -812,6 +832,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.docker/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/_layouts/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -826,13 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.docker/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
@@ -840,24 +874,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="32" column="87" lean-forward="true" selection-start-line="32" selection-start-column="87" selection-end-line="32" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.docker/crontab">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
+        <state>
+          <caret column="97" selection-start-column="97" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/json/json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="126" column="9" selection-start-line="126" selection-start-column="9" selection-end-line="126" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/occurrences/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_21_114724_create_occurrence_details_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/app/Occurrence.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="799">
+          <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_27_183047_add_important_details_to_details_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="46" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/RetrieveMainOccurrences.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+          <folding>
+            <element signature="e#40#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/RetrieveOcurrences.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="187" column="87" lean-forward="true" selection-start-line="157" selection-start-column="16" selection-end-line="187" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/OccurrenceDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
         </state>
       </provider>
     </entry>

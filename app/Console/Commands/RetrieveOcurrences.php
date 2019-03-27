@@ -46,6 +46,7 @@ class RetrieveOcurrences extends Command
     {
         //
         $this->info('Starting to Retrieve Occurrences: '.Carbon::now()->format('Y-m-d H:i:s'));
+
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, 'http://www.prociv.pt/_vti_bin/ARM.ANPC.UI/ANPC_SituacaoOperacional.svc/GetHistoryOccurrencesByLocation');
         curl_setopt($curl, CURLOPT_POSTFIELDS,
@@ -70,8 +71,38 @@ class RetrieveOcurrences extends Command
 
         $result = collect($result);
 
+        curl_close($curl);
+
+        // Get main occurrences
+        $curl = curl_init();
+        curl_setopt($curl, CURLOPT_URL, 'http://www.prociv.pt/_vti_bin/ARM.ANPC.UI/ANPC_SituacaoOperacional.svc/GetMainOccurrences');
+        curl_setopt($curl, CURLOPT_POSTFIELDS, "{\"allData\":true,\"pageIndex\":1}");
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($curl, CURLOPT_POST, 1);
+        curl_setopt($curl, CURLOPT_HTTPHEADER, [
+            'Content-Type: application/json;charset=UTF-8',
+            'Accept: application/json, text/plain, */*',
+            'Connection: keep-alive',
+        ]);
+
+
+        $main_result = curl_exec($curl);
+
+        if (curl_errno($curl)) {
+            echo curl_error($curl)."\n";
+            die();
+        }
+        $main_result = json_decode($main_result);
+
+        $main_result = $main_result->GetMainOccurrencesResult->arrayInfo[0]->Data;
+
+        $main_result = collect($main_result);
+        curl_close($curl);
+
+
         $this->info("Encontrei {$result->count()} resultados");
 
+        \DB::beginTransaction();
         foreach ($result as $item) {
             $occurrence = Occurrence::where('prociv_id', $item->Numero)->first();
 
@@ -113,10 +144,53 @@ class RetrieveOcurrences extends Command
                 'state'                                  => $item->EstadoOcorrencia->Name,
                 'state_id'                               => $item->EstadoOcorrenciaID,
             ]);
-
-
         }
 
+        $this->info("Encontrei {$main_result->count()} ocorrências principais.");
+
+        foreach ($main_result as $item) {
+            $this->info('Número: '.$item->Numero);
+            $occurrence = Occurrence::where('prociv_id', $item->Numero)->first();
+
+            $last_detail = $occurrence->last_detail;
+
+            $last_detail->update([
+                'important'                               => true,
+                'cos'                                     => $item->COS,
+                'entidadesNoTO'                           => $item->EntidadesNoTO,
+                'notas'                                   => $item->Notas,
+                'GruposReforcoEnvolvidos'                 => $item->GruposReforcoEnvolvidos,
+                'NumAvioesMediosEnvolvidos'               => $item->NumAvioesMediosEnvolvidos,
+                'NumAvioesOutrosEnvolvidos'               => $item->NumAvioesOutrosEnvolvidos,
+                'NumAvioesPesadosEnvolvidos'              => $item->NumAvioesPesadosEnvolvidos,
+                'NumBombeirosEnvolvidos'                  => $item->NumBombeirosEnvolvidos,
+                'NumBombeirosOperEnvolvidos'              => $item->NumBombeirosOperEnvolvidos,
+                'NumEsfEnvolvidos'                        => $item->NumEsfEnvolvidos,
+                'NumEsfOperEnvolvidos'                    => $item->NumEsfOperEnvolvidos,
+                'NumFAAEnvolvidos'                        => $item->NumFAAEnvolvidos,
+                'NumFAAOperEnvolvidos'                    => $item->NumFAAOperEnvolvidos,
+                'NumFebEnvolvidos'                        => $item->NumFebEnvolvidos,
+                'NumFebOperEnvolvidos'                    => $item->NumFebOperEnvolvidos,
+                'NumGNRGipsEnvolvidos'                    => $item->NumGNRGipsEnvolvidos,
+                'NumGNRGipsOperEnvolvidos'                => $item->NumGNRGipsOperEnvolvidos,
+                'NumGNROutrosEnvolvidos'                  => $item->NumGNROutrosEnvolvidos,
+                'NumGNROutrosOperEnvolvidos'              => $item->NumGNROutrosOperEnvolvidos,
+                'NumPSPEnvolvidos'                        => $item->NumPSPEnvolvidos,
+                'NumPSPOperEnvolvidos'                    => $item->NumPSPOperEnvolvidos,
+                'NumHelicopterosLigeirosMediosEnvolvidos' => $item->NumHelicopterosLigeirosMediosEnvolvidos,
+                'NumHelicopterosOutrosEnvolvidos'         => $item->NumHelicopterosOutrosEnvolvidos,
+                'NumHelicopterosPesadosEnvolvidos'        => $item->NumHelicopterosPesadosEnvolvidos,
+                'OutrosOperacionaisEnvolvidos'            => $item->OutrosOperacionaisEnvolvidos,
+                'POSITDescricao'                          => $item->POSITDescricao,
+                'PCO'                                     => $item->PCO,
+                'PontoSituacao'                           => $item->PontoSituacao,
+                'PPIAtivados'                             => $item->PPIAtivados,
+                'api_response'                            => json_encode((array)$item),
+            ]);
+            $last_detail->save();
+        }
+
+        \DB::commit();
         $this->info('Finished retrieve occurrences at: '.Carbon::now()->format('Y-m-d H:i:s'));
 
         return 1;
