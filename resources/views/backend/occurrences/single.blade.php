@@ -50,7 +50,135 @@
                     </div>
                 </div>
             </div>
-
+            @if ($occurrence->last_detail->important)
+                <div class="card b">
+                    <div class="card-header">
+                        <h4 class="my-2">Mais detalhes</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <table class="table">
+                                <tr>
+                                    <td><strong>Aviões Médios</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumAvioesMediosEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Aviões Pesados</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumAvioesPesadosEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Bombeiros Operacionais</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumBombeirosOperEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Esf Operacionais</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumEsfOperEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>FAA Operacionais</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumFAAOperEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Feb Operacionais</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumFebOperEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>GNRGips Operacionais</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumGNRGipsOperEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>GNROutros Operacionais</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumGNROutrosOperEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>PSP Operacionais</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumPSPOperEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Helicópetros Ligeiros/Médios</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumHelicopterosLigeirosMediosEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Helicópetros Outros</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumHelicopterosOutrosEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>COS</strong></td>
+                                    <td>{{ $occurrence->last_detail->COS }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Entidades No TO</strong></td>
+                                    <td>{{ $occurrence->last_detail->EntidadesNoTO }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Ponto Situação</strong></td>
+                                    <td>{{ $occurrence->last_detail->PontoSituacao }}</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-6">
+                            <table class="table">
+                                <tr>
+                                    <td><strong>Outros aviões</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumAvioesOutrosEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Operacionais Aéreos</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumeroOperacionaisAereosEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Bombeiros</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumBombeirosEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Esf</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumEsfEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>FAA</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumFAAEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Feb</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumFebEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>GNRGips</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumGNRGipsEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>GNROutros</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumGNROutrosEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>PSP</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumPSPEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Helicópetros Outros</strong></td>
+                                    <td>{{ $occurrence->last_detail->NumHelicopterosPesadosEnvolvidos }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>N/A</strong></td>
+                                    <td>{{ "" }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>PCO</strong></td>
+                                    <td>{{ $occurrence->last_detail->PCO }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Descrição POSIT</strong></td>
+                                    <td>{{ $occurrence->last_detail->POSITDescricao }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>PPI Ativados</strong></td>
+                                    <td>{{ $occurrence->last_detail->PPIAtivados }}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            @endif
             <div class="row">
                 <div class="col-8">
                     <div class="card b">
