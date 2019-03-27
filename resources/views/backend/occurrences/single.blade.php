@@ -11,7 +11,8 @@
                             Atualização: {{ $occurrence->last_detail->created_at }}</div>
                     </div>
                     <h4 class="my-2">
-                        #IF<strong>{{ $occurrence->county->name }}</strong>, {{ $occurrence->locality }}
+                        <strong>{{ $occurrence->county->name }}</strong>, {{ $occurrence->locality }}
+                        <small>Número: {{ $occurrence->prociv_id }}</small>
                     </h4>
                 </div>
                 <div class="row">
