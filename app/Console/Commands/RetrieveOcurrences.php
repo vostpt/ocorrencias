@@ -139,6 +139,14 @@ class RetrieveOcurrences extends Command
                 ]);
             }
 
+            $occurrence->update([
+                'NumeroMeiosAereosEnvolvidos'            => $item->NumeroMeiosAereosEnvolvidos,
+                'NumeroMeiosTerrestresEnvolvidos'        => $item->NumeroMeiosTerrestresEnvolvidos,
+                'NumeroOperacionaisAereosEnvolvidos'     => $item->NumeroOperacionaisAereosEnvolvidos,
+                'NumeroOperacionaisTerrestresEnvolvidos' => $item->NumeroOperacionaisTerrestresEnvolvidos,
+                'state'                                  => $item->EstadoOcorrencia->Name,
+                'state_id'                               => $item->EstadoOcorrenciaID,
+            ]);
             // Create new Ocurrence Detail
 
             $occurrence->details()->create([
