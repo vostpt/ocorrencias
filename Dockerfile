@@ -6,7 +6,8 @@ RUN apt-get update && apt-get install -y \
     git \
     libzip-dev \
     zip \
-    unzip
+    unzip \
+    cron
 
 RUN docker-php-ext-configure zip --with-libzip
 RUN docker-php-ext-install pdo_mysql zip
