@@ -102,7 +102,7 @@ class Occurrence extends Model
         $active = self::whereIn('state_id', [5, 6, 7])->get();
 
         return $active;
-        $sql
+        /*$sql
             = \DB::select(\DB::raw('select od.*, o.*, d.name district, c.name county, p.name parish, od.created_at last_update, ot.name nature from occurrences o 
                                 join occurrence_details od on od.id = (SELECT id from occurrence_details where occurrence_details.occurrence_id = o.id order by created_at desc limit 1)
                                 inner join districts d on d.id = o.district_id
@@ -112,26 +112,31 @@ class Occurrence extends Model
                                 where od.state_id IN (5,6,7) AND ot.code NOT BETWEEN 4101 AND 4123 AND ot.code NOT BETWEEN 4311 AND 4315
                                 ORDER BY started_at DESC'));
 
-        return $sql;
+        return $sql;*/
     }
 
     public static function activeCounter()
     {
-        $sql = \DB::select(\DB::raw('select count(*) counter from occurrences o 
-                                  join occurrence_details od on od.id = (SELECT id from occurrence_details where occurrence_details.occurrence_id = o.id order by created_at desc limit 1)
-                                  where od.state_id = 5'));
+        $active = self::where('state_id', 5)->get()->count();
 
-        return $sql[0]->counter;
+        return $active;
     }
 
     public static function activeFires()
     {
-        $sql = \DB::select(\DB::raw('select * from occurrences o 
+
+        $active = self::with('type')->where('state_id', 5)->whereHas('type', function ($query) {
+            $query->whereBetween('code', [1, 3111]);
+        })->get();
+
+        return $active;
+
+        /*$sql = \DB::select(\DB::raw('select * from occurrences o
                                   join occurrence_details od on od.id = (SELECT id from occurrence_details where occurrence_details.occurrence_id = o.id order by created_at desc limit 1)
                                   join occurrence_types ot on o.type_id = ot.id
                                   where od.state_id = 5 and ot.code BETWEEN 3101 AND 3111'));
 
-        return collect($sql);
+        return collect($sql);*/
     }
 
     public function getLastDetailAttribute()
