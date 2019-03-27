@@ -11,9 +11,7 @@
                             Atualização: {{ $occurrence->last_detail->created_at }}</div>
                     </div>
                     <h4 class="my-2">
-                        <strong>{{ $occurrence->locality }}</strong>
-                        <small>{{ $occurrence->district->name }}, {{ $occurrence->county->name }}
-                            , {{ $occurrence->parish->name }}</small>
+                        #IF<strong>{{ $occurrence->county->name }}</strong>, {{ $occurrence->locality }}
                     </h4>
                 </div>
                 <div class="row">
