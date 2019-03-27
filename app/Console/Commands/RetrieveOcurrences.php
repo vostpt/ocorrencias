@@ -148,6 +148,10 @@ class RetrieveOcurrences extends Command
                     'state_id'                               => $item->EstadoOcorrenciaID,
                     'updated_at'                             => Carbon::now(),
                 ]);
+
+                if ($occurrence->touch()) {
+                    $this->info("Touched {$item->Numero}");
+                }
             }
 
             // Create new Ocurrence Detail
