@@ -24,6 +24,7 @@ RUN apt-get update && apt-get install -y \
 		supervisor \
 		vim \
 		cron \
+		git \
 	--no-install-recommends && rm -r /var/lib/apt/lists/*
 
 ENV PHP_INI_DIR /usr/local/etc/php
@@ -64,12 +65,15 @@ RUN set -xe \
 		--with-libedit \
 		--with-openssl \
 		--with-zlib \
+		--enable-zip \
 		--enable-bcmath \
 	&& make -j"$(nproc)" \
 	&& make install \
 	&& { find /usr/local/bin /usr/local/sbin -type f -executable -exec strip --strip-all '{}' + || true; } \
 	&& make clean \
 	&& apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false -o APT::AutoRemove::SuggestsImportant=false $buildDeps
+
+COPY ../ /var/www/app/
 
 #change here
 WORKDIR /var/www/app
@@ -133,6 +137,13 @@ COPY nginx.conf /etc/nginx
 
 RUN ln -sf /dev/stdout /var/log/nginx/access.log \
 	&& ln -sf /dev/stderr /var/log/nginx/error.log
+
+RUN ls -la
+
+RUN curl -sS https://getcomposer.org/installer | \
+    php -- --install-dir=/usr/bin/ --filename=composer
+
+RUN composer install --no-dev --no-interaction -o
 
 EXPOSE 8097
 

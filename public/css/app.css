@@ -19301,3 +19301,11 @@ body,
   height: 25vh;
 }
 
+.kml-marker {
+  background-color: blue;
+}
+
+.fire-marker {
+  background-color: red;
+}
+

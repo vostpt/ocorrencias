@@ -12,20 +12,25 @@ class Kernel extends ConsoleKernel
      *
      * @var array
      */
-    protected $commands = [
-        //
-    ];
+    protected $commands
+        = [//
+        ];
 
     /**
      * Define the application's command schedule.
      *
-     * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
+     * @param  \Illuminate\Console\Scheduling\Schedule $schedule
+     *
      * @return void
      */
     protected function schedule(Schedule $schedule)
     {
         // $schedule->command('inspire')
         //          ->hourly();
+
+        $schedule->command('vost:retrieve-ocurrences')->everyMinute()->appendOutputTo(storage_path()."/logs/scheduler/occurrences.log");
+
+        $schedule->command('vost:download-firms-file')->hourly()->appendOutputTo(storage_path()."/logs/scheduler/firms-download.log");;
     }
 
     /**

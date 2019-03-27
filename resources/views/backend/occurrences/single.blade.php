@@ -6,7 +6,9 @@
             <div class="card b">
                 <div class="card-header">
                     <div class="float-right mt-2">
-                        <div class="badge badge-info">{{ $occurrence->last_detail->state }}</div>
+                        <div class="badge badge-danger">{{ $occurrence->last_detail->state }}</div>
+                        <div class="badge badge-info">Última
+                            Atualização: {{ $occurrence->last_detail->created_at }}</div>
                     </div>
                     <h4 class="my-2">
                         <strong>{{ $occurrence->locality }}</strong>
@@ -63,7 +65,7 @@
                                     <tr>
                                         <td class="text-center" style="width: 15%;">
                                             <a href="">
-                                                <strong>Mário{{-- $comment->user->name --}}</strong>
+                                                <strong>{{ $comment->user->name }}</strong>
                                             </a>
                                         </td>
                                         <td class="text-right">

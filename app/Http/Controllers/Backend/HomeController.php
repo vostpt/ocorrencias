@@ -18,6 +18,8 @@ class HomeController extends Controller
     {
         $activeCounter = Occurrence::activeCounter();
 
-        return response()->view('backend.index', ['activeCounter' => $activeCounter]);
+        $activeFires = Occurrence::activeFires();
+
+        return response()->view('backend.index', ['activeCounter' => $activeCounter, 'activeFires' => $activeFires]);
     }
 }

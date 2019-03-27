@@ -84,8 +84,18 @@ class Occurrence extends Model
         return $sql[0]->counter;
     }
 
+    public static function activeFires()
+    {
+        $sql = \DB::select(\DB::raw('select * from occurrences o 
+                                  join occurrence_details od on od.id = (SELECT id from occurrence_details where occurrence_details.occurrence_id = o.id order by created_at desc limit 1)
+                                  join occurrence_types ot on o.type_id = ot.id
+                                  where od.state_id = 5 and ot.code BETWEEN 3101 AND 3111'));
+
+        return collect($sql);
+    }
+
     public function getLastDetailAttribute()
     {
-        return $this->details->sortByDesc('date')->first();
+        return $this->details->sortByDesc('created_at')->first();
     }
 }

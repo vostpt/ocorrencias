@@ -45,11 +45,11 @@ class RetrieveOcurrences extends Command
     public function handle()
     {
         //
-
+        $this->info('Starting to Retrieve Occurrences: '.Carbon::now()->format('Y-m-d H:i:s'));
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, 'http://www.prociv.pt/_vti_bin/ARM.ANPC.UI/ANPC_SituacaoOperacional.svc/GetHistoryOccurrencesByLocation');
         curl_setopt($curl, CURLOPT_POSTFIELDS,
-            '{"distritoID":null,"concelhoID":null,"freguesiaID":null,"pageSize":99999,"pageIndex":0,"forToday":false,"natureza":"0"}');
+            '{"distritoID":null,"concelhoID":null,"freguesiaID":null,"pageSize":99999,"pageIndex":0,"allData":true,"natureza":"0"}');
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($curl, CURLOPT_POST, 1);
         curl_setopt($curl, CURLOPT_HTTPHEADER, [
@@ -61,7 +61,7 @@ class RetrieveOcurrences extends Command
         $result = curl_exec($curl);
 
         if (curl_errno($curl)) {
-            echo curl_error($curl);
+            echo curl_error($curl)."\n";
             die();
         }
         $result = json_decode($result);
@@ -114,6 +114,11 @@ class RetrieveOcurrences extends Command
                 'state_id'                               => $item->EstadoOcorrenciaID,
             ]);
 
+
         }
+
+        $this->info('Finished retrieve occurrences at: '.Carbon::now()->format('Y-m-d H:i:s'));
+
+        return 1;
     }
 }

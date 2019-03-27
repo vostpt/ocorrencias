@@ -15,9 +15,9 @@ Route::get('', [\App\Http\Controllers\HomeController::class, 'index'])->name('in
 
 
 Route::get('/login', [\App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login');
-Route::post('/login', [\App\Http\Controllers\Auth\LoginController::class, 'login']);
+Route::post('/login', [\App\Http\Controllers\Auth\LoginController::class, 'login'])->name('login.post');
 Route::get('/register', [\App\Http\Controllers\Auth\RegisterController::class, 'showRegistrationForm'])->name('register');
-Route::post('/register', [\App\Http\Controllers\Auth\RegisterController::class, 'register']);
+Route::post('/register', [\App\Http\Controllers\Auth\RegisterController::class, 'register'])->name('register.post');;
 
 Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
     Route::get('', [\App\Http\Controllers\Backend\HomeController::class, 'index'])->name('index');

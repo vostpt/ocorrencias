@@ -11,7 +11,8 @@
             </div>
             <div class="card-body">
                 <p class="text-center py-2">Entrada na plataforma VOST Portugal</p>
-                <form class="mb-3" id="loginForm">
+                <form class="mb-3" id="loginForm" method="post" action="{{ route('login') }}">
+                    @csrf
                     <div class="form-group">
                         <div class="input-group with-focus">
                             <input class="form-control border-right-0" id="email" type="email"
