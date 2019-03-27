@@ -6,9 +6,9 @@
             <div class="card b">
                 <div class="card-header">
                     <div class="float-right mt-2">
-                        <div class="badge badge-danger">{{ $occurrence->last_detail->state }}</div>
+                        <div class="badge badge-danger">{{ $occurrence->state }}</div>
                         <div class="badge badge-info">Última
-                            Atualização: {{ $occurrence->last_detail->created_at }}</div>
+                            Atualização: {{ $occurrence->created_at }}</div>
                     </div>
                     <h4 class="my-2">
                         <strong>{{ $occurrence->county->name }}</strong>, {{ $occurrence->locality }}
@@ -24,11 +24,11 @@
                             </tr>
                             <tr>
                                 <td><strong>Operacionais Terrestres</strong></td>
-                                <td>{{ $occurrence->last_detail->NumeroOperacionaisTerrestresEnvolvidos }}</td>
+                                <td>{{ $occurrence->NumeroOperacionaisTerrestresEnvolvidos }}</td>
                             </tr>
                             <tr>
                                 <td><strong>Veículos Terrestres</strong></td>
-                                <td>{{ $occurrence->last_detail->NumeroMeiosTerrestresEnvolvidos }}</td>
+                                <td>{{ $occurrence->NumeroMeiosTerrestresEnvolvidos }}</td>
                             </tr>
                         </table>
                     </div>
@@ -40,17 +40,17 @@
                             </tr>
                             <tr>
                                 <td><strong>Operacionais Aéreos</strong></td>
-                                <td>{{ $occurrence->last_detail->NumeroOperacionaisAereosEnvolvidos }}</td>
+                                <td>{{ $occurrence->NumeroOperacionaisAereosEnvolvidos }}</td>
                             </tr>
                             <tr>
                                 <td><strong>Veículos Aéreos</strong></td>
-                                <td>{{ $occurrence->last_detail->NumeroMeiosAereosEnvolvidos }}</td>
+                                <td>{{ $occurrence->NumeroMeiosAereosEnvolvidos }}</td>
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            @if ($occurrence->last_detail->important)
+            @if ($occurrence->important)
                 <div class="card b">
                     <div class="card-header">
                         <h4 class="my-2">Mais detalhes</h4>
@@ -60,59 +60,59 @@
                             <table class="table">
                                 <tr>
                                     <td><strong>Aviões Médios</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumAvioesMediosEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumAvioesMediosEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Aviões Pesados</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumAvioesPesadosEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumAvioesPesadosEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Bombeiros Operacionais</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumBombeirosOperEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumBombeirosOperEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Esf Operacionais</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumEsfOperEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumEsfOperEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>FAA Operacionais</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumFAAOperEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumFAAOperEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Feb Operacionais</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumFebOperEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumFebOperEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>GNRGips Operacionais</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumGNRGipsOperEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumGNRGipsOperEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>GNROutros Operacionais</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumGNROutrosOperEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumGNROutrosOperEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>PSP Operacionais</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumPSPOperEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumPSPOperEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Helicópetros Ligeiros/Médios</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumHelicopterosLigeirosMediosEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumHelicopterosLigeirosMediosEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Helicópetros Outros</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumHelicopterosOutrosEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumHelicopterosOutrosEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>COS</strong></td>
-                                    <td>{{ $occurrence->last_detail->COS }}</td>
+                                    <td>{{ $occurrence->COS }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Entidades No TO</strong></td>
-                                    <td>{{ $occurrence->last_detail->EntidadesNoTO }}</td>
+                                    <td>{{ $occurrence->EntidadesNoTO }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Ponto Situação</strong></td>
-                                    <td>{{ $occurrence->last_detail->PontoSituacao }}</td>
+                                    <td>{{ $occurrence->PontoSituacao }}</td>
                                 </tr>
                             </table>
                         </div>
@@ -120,43 +120,43 @@
                             <table class="table">
                                 <tr>
                                     <td><strong>Outros aviões</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumAvioesOutrosEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumAvioesOutrosEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Operacionais Aéreos</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumeroOperacionaisAereosEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumeroOperacionaisAereosEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Bombeiros</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumBombeirosEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumBombeirosEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Esf</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumEsfEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumEsfEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>FAA</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumFAAEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumFAAEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Feb</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumFebEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumFebEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>GNRGips</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumGNRGipsEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumGNRGipsEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>GNROutros</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumGNROutrosEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumGNROutrosEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>PSP</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumPSPEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumPSPEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Helicópetros Outros</strong></td>
-                                    <td>{{ $occurrence->last_detail->NumHelicopterosPesadosEnvolvidos }}</td>
+                                    <td>{{ $occurrence->NumHelicopterosPesadosEnvolvidos }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>N/A</strong></td>
@@ -164,15 +164,15 @@
                                 </tr>
                                 <tr>
                                     <td><strong>PCO</strong></td>
-                                    <td>{{ $occurrence->last_detail->PCO }}</td>
+                                    <td>{{ $occurrence->PCO }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Descrição POSIT</strong></td>
-                                    <td>{{ $occurrence->last_detail->POSITDescricao }}</td>
+                                    <td>{{ $occurrence->POSITDescricao }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>PPI Ativados</strong></td>
-                                    <td>{{ $occurrence->last_detail->PPIAtivados }}</td>
+                                    <td>{{ $occurrence->PPIAtivados }}</td>
                                 </tr>
                             </table>
                         </div>
