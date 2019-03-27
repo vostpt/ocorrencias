@@ -69,7 +69,7 @@ class Occurrence extends Model
                                 inner join counties c on c.id = o.county_id
                                 inner join parishes p on p.id = o.parish_id
                                 left join occurrence_types ot on ot.id = o.type_id
-                                where od.state_id IN (5) AND ot.code NOT BETWEEN 4101 AND 4123 AND ot.code NOT BETWEEN 4311 AND 4315
+                                where od.state_id IN (5,6,7) AND ot.code NOT BETWEEN 4101 AND 4123 AND ot.code NOT BETWEEN 4311 AND 4315
                                 ORDER BY started_at DESC'));
 
         return $sql;
