@@ -249,6 +249,19 @@ class RetrieveOcurrences extends Command
             $last_detail->save();
         }
 
+        // Update disabled occurrences
+        $all_occurrences = Occurrence::where('updated_at', '<', Carbon::now()->addHours(-1))->where('state_id', '<>', '999')->get();
+
+        $this->info("Found {$all_occurrences->count()} Occurrences to be disabled");
+
+        foreach ($all_occurrences as $occurrence) {
+            $this->info("Disabling {$occurrence->prociv_id}");
+            $occurrence->timestamps = false;
+            $occurrence->state_id   = 999;
+            $occurrence->state      = 'Disabled by VOST';
+            $occurrence->save();
+        }
+
         \DB::commit();
         $this->info('Finished retrieve occurrences at: '.Carbon::now()->format('Y-m-d H:i:s'));
 
