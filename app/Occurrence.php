@@ -156,17 +156,15 @@ class Occurrence extends Model
         switch ($state_id) {
             // Despacho
             // Despacho 1º Alerta
+            // Chegada ao TO
             case 3:
             case 4:
+            case 6:
                 $color = 'warning';
                 break;
             // em curso
             case 5:
                 $color = 'danger';
-                break;
-            // Chegada ao TO
-            case 6:
-                $color = '';
                 break;
             // Em resolução
             case 7:
