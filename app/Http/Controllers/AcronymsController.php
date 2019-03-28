@@ -17,6 +17,6 @@ class AcronymsController extends Controller
             return response([], 404);
         }
 
-        return $acronym;
+        return response($acronym, 200);
     }
 }
