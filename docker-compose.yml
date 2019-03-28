@@ -16,7 +16,7 @@ services:
     - web
     labels:
     - 'traefik.enable=true'
-    - 'traefik.frontend.rule=Host:vost.mariosantos.net'
+    - 'traefik.frontend.rule=Host:vost.mariosantos.net,ocorrencias.vost.pt'
     - 'traefik.port=80'
     - 'traefik.docker.network=web'
     volumes:
