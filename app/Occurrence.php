@@ -147,4 +147,36 @@ class Occurrence extends Model
     {
         return $this->details->sortByDesc('created_at')->first();
     }
+
+    public function getStateBgAttribute()
+    {
+        $state_id = $this->state_id;
+
+
+        switch ($state_id) {
+            // Despacho
+            // Despacho 1º Alerta
+            case 3:
+            case 4:
+                $color = 'warning';
+                break;
+            // em curso
+            case 5:
+                $color = 'danger';
+                break;
+            // Chegada ao TO
+            case 6:
+                $color = '';
+                break;
+            // Em resolução
+            case 7:
+                $color = 'success';
+                break;
+            default:
+                $color = 'default';
+                break;
+        }
+
+        return $color;
+    }
 }

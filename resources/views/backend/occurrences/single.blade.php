@@ -6,9 +6,9 @@
             <div class="card b">
                 <div class="card-header">
                     <div class="float-right mt-2">
-                        <div class="badge badge-danger">{{ $occurrence->state }}</div>
+                        <div class="badge badge-{{ $occurrence->state_bg }}">{{ $occurrence->state }}</div>
                         <div class="badge badge-info">Última
-                            Atualização: {{ $occurrence->created_at }}</div>
+                            Atualização: {{ $occurrence->updated_at->diffForHumans() }}</div>
                     </div>
                     <h4 class="my-2">
                         <strong>{{ $occurrence->county->name }}</strong>, {{ $occurrence->locality }}
