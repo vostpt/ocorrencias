@@ -175,9 +175,9 @@
                 <ul class="sidebar-nav">
                     <!-- Iterates over all sidebar items-->
                     <li class="nav-heading">
-                        <span data-localize="sidebar.heading.HEADER">Principal</span>
+                        <span>Principal</span>
                     </li>
-                    <li class="">
+                    {{--<li class="">
                         <a href="#about-us" title="Sobre nós">
                             <i class="fa fa-info fa-fw"></i>
                             <span>Sobre nós</span>
@@ -206,7 +206,7 @@
                             <i class="fa fa-phone fa-fw"></i>
                             <span>Contactar</span>
                         </a>
-                    </li>
+                    </li>--}}
 
                     @if (! \Auth::guest())
                         <li class="nav-heading">
