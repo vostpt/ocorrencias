@@ -35959,7 +35959,7 @@ if ($map.length) {
     for (var i = 0; i < markers.length; i++) {
       var popup = L.popup({
         autoClose: true
-      }).setContent("<strong>" + markers[i].locality + "</strong>" + "<br>" + markers[i].name + "" + "<br>" + markers[i].NumeroOperacionaisTerrestresEnvolvidos + " 👩‍🚒" + markers[i].NumeroMeiosTerrestresEnvolvidos + " 🚒");
+      }).setContent("<strong>" + markers[i].locality + "</strong>" + "<br>" + markers[i].type.name + "" + "<br>" + markers[i].NumeroOperacionaisTerrestresEnvolvidos + " 👩‍🚒" + markers[i].NumeroMeiosTerrestresEnvolvidos + " 🚒");
       L.marker([markers[i].lat, markers[i].lon], {
         icon: fireIcon
       }).bindPopup(popup).addTo(map);
