@@ -14,7 +14,7 @@ class AcronymsController extends Controller
         $acronym = Acronym::where('acronym', 'LIKE', $acronym)->first();
 
         if (is_null($acronym)) {
-            return [];
+            return response([], 404);
         }
 
         return $acronym;
