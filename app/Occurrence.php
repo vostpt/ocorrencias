@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Scopes\ActiveScope;
 use Illuminate\Database\Eloquent\Model;
 
 class Occurrence extends Model
@@ -64,7 +65,11 @@ class Occurrence extends Model
 
     protected $with
         = [
+            'district',
+            'county',
+            'parish',
             'details',
+            'type',
         ];
 
     public function district()

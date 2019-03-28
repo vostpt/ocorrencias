@@ -120,7 +120,7 @@ class RetrieveOcurrences extends Command
 
                 $type = OccurrenceType::where('code', $item->Natureza->Codigo)->first();
 
-                $occurrence = Occurrence::create([
+                $data = [
                     'prociv_id'                              => $item->Numero,
                     'lat'                                    => $item->Latitude,
                     'lon'                                    => $item->Longitude,
@@ -136,7 +136,11 @@ class RetrieveOcurrences extends Command
                     'NumeroOperacionaisTerrestresEnvolvidos' => $item->NumeroOperacionaisTerrestresEnvolvidos,
                     'state'                                  => $item->EstadoOcorrencia->Name,
                     'state_id'                               => $item->EstadoOcorrenciaID,
-                ]);
+                ];
+
+
+                $occurrence = Occurrence::create($data);
+
             } else {
                 $this->info("Updating Ocorrência {$item->Numero}.");
                 $occurrence->update([
