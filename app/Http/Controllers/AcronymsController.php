@@ -8,13 +8,14 @@ use Illuminate\Http\Request;
 class AcronymsController extends Controller
 {
     //
-    public function getAcronymDescription(Request $request)
+    public function getAcronymDescription(string $acronym)
     {
-        if ( ! $request->has('s')) {
+
+        $acronym = Acronym::where('acronym', 'LIKE', $acronym)->first();
+
+        if (is_null($acronym)) {
             return [];
         }
-
-        $acronym = Acronym::where('acronym', 'LIKE', $request->get('s'))->first();
 
         return $acronym;
     }

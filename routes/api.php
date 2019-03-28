@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/acronym', [\App\Http\Controllers\AcronymsController::class, 'getAcronymDescription'])->name('api.acronym');
+Route::get('/acronym/{acronym}', [\App\Http\Controllers\AcronymsController::class, 'getAcronymDescription'])->name('api.acronym');
 
 Route::prefix('occurrences')->group(function () {
     Route::get('getByID/{number}', [\App\Http\Controllers\Api\OccurrencesController::class, 'getOccurrenceByNumber'])->name('occurrences.number');
