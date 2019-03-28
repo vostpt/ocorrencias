@@ -68,7 +68,6 @@ class Occurrence extends Model
             'district',
             'county',
             'parish',
-            'details',
             'type',
         ];
 
