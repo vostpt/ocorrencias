@@ -112,7 +112,7 @@ class RetrieveOcurrences extends Command
 
                 $started_at = $item->DataOcorrencia;
                 preg_match("/\(([^\)]*)\+/", $started_at, $matches);
-                $started_at = Carbon::createFromTimestamp($matches[1] / 1000)->toDateTimeString();
+                $started_at = Carbon::createFromTimestamp($matches[1] / 1000, new \DateTimeZone('Europe/Lisbon'))->toDateTimeString();
 
                 $district = District::where('dico', str_pad($item->Distrito->DI, 6, 0, STR_PAD_RIGHT))->first();
                 $county   = County::where('dico', str_pad($item->Concelho->DICO, 6, 0, STR_PAD_RIGHT))->first();
