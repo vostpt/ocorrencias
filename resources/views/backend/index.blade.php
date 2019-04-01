@@ -24,6 +24,26 @@
                 </div>
             </div>
         </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card flex-row align-items-center align-items-stretch border-0">
+                <div class="col-4 d-flex align-items-center bg-purple-dark justify-content-center rounded-left"><em
+                            class="fa fa-fire fa-3x"></em></div>
+                <div class="col-8 py-3 bg-purple rounded-right">
+                    <div class="h2 mt-0">{{ $todayOccurrences->count() }}</div>
+                    <div class="text-uppercase">Ocorrências hoje</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card flex-row align-items-center align-items-stretch border-0">
+                <div class="col-4 d-flex align-items-center bg-purple-dark justify-content-center rounded-left"><em
+                            class="fa fa-fire fa-3x"></em></div>
+                <div class="col-8 py-3 bg-purple rounded-right">
+                    <div class="h2 mt-0">{{ $yesterdayOccurrences->count() }}</div>
+                    <div class="text-uppercase">Ocorrências ontem</div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="row">

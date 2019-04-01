@@ -23,6 +23,7 @@ class OccurrencesController extends Controller
 
     public function single(Occurrence $occurrence)
     {
+
         return response()->view('backend.occurrences.single', ['occurrence' => $occurrence]);
     }
 

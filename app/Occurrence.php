@@ -3,6 +3,7 @@
 namespace App;
 
 use App\Scopes\ActiveScope;
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 
 class Occurrence extends Model
@@ -176,5 +177,26 @@ class Occurrence extends Model
         }
 
         return $color;
+    }
+
+    public static function today()
+    {
+        $occurrences = self::where('created_at', '>=', Carbon::today())->get();
+
+        return $occurrences;
+    }
+
+    public static function yesterday()
+    {
+        $occurrences = self::where('created_at', '>=', Carbon::yesterday())->where('created_at', '<', Carbon::yesterday()->endOfDay())->get();
+
+        return $occurrences;
+    }
+
+    public function getHistoryAttribute()
+    {
+        $details = $this->details()->get();
+
+        return $details;
     }
 }

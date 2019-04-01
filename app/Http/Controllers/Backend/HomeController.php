@@ -20,6 +20,14 @@ class HomeController extends Controller
 
         $activeFires = Occurrence::activeFires();
 
-        return response()->view('backend.index', ['activeCounter' => $activeCounter, 'activeFires' => $activeFires]);
+        $todayOccurrences     = Occurrence::today();
+        $yesterdayOccurrences = Occurrence::yesterday();
+
+        return response()->view('backend.index', [
+            'activeCounter'        => $activeCounter,
+            'activeFires'          => $activeFires,
+            'todayOccurrences'     => $todayOccurrences,
+            'yesterdayOccurrences' => $yesterdayOccurrences,
+        ]);
     }
 }

@@ -243,4 +243,19 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-8">
+            <div class="card b">
+                <div class="card-header">Histórico</div>
+                <table class="table">
+                    @foreach($occurrence->history as $history)
+                        <tr>
+                            <td>{{ $history->created_at->diffForHumans() }}</td>
+                            <td>{{ $history->state }}</td>
+                        </tr>
+                    @endforeach
+                </table>
+            </div>
+        </div>
+    </div>
 @endsection
