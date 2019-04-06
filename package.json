@@ -28,6 +28,7 @@
         "datatables.net-bs4": "^1.10.19",
         "datatables.net-dt": "^1.10.19",
         "datatables.net-responsive-bs": "^2.2.3",
+        "flot": "^3.0.2",
         "font-awesome": "^4.7.0",
         "leaflet": "^1.4.0",
         "leaflet-omnivore": "^0.3.4"

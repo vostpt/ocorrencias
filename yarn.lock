@@ -2844,6 +2844,11 @@ findup-sync@^2.0.0:
     micromatch "^3.0.4"
     resolve-dir "^1.0.1"
 
+flot@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/flot/-/flot-3.0.2.tgz#29afafea26affa8318b1d919d10b55e54a1b1400"
+  integrity sha512-zi2iWlFQYx4RBax3FAQiFFBP+Ao5VIrBwjZvtTdySTl+N/hiZe6Rr/0/XWhDAdUI8jVGQdbUpOmEf55EvMKbKQ==
+
 flush-write-stream@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/flush-write-stream/-/flush-write-stream-1.1.1.tgz#8dd7d873a1babc207d94ead0c2e0e44276ebf2e8"

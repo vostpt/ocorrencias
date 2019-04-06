@@ -55,4 +55,10 @@
             </div>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-6">
+            <div class="chart-bar"></div>
+        </div>
+    </div>
 @endsection
